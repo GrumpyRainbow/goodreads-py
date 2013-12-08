@@ -3,6 +3,9 @@ import urllib
 import xmltodict
 import datetime
 
+from author import Author
+from book import Book
+
 class GoodreadsRequestError(Exception):
     def __init__(self, error_msg, url):
         self.error_msg = error_msg
@@ -27,52 +30,6 @@ class GoodreadsRequest:
         if data_dict.has_key('error'):
             raise GoodreadsRequestError(data_dict['error'], url_extension)
         return data_dict['GoodreadsResponse']
-
-class GoodreadObject:
-    def __init__(self, goodread_dict_dict):
-        for key, val in goodread_dict_dict.items():
-            self.__class__.__dict__[key] = val
-
-class Author:
-    def __init__(self, author_dict):
-        for key, val in author_dict.items():
-            if key == 'books':
-                books = []
-                for book_dict in author_dict[key]['book']:
-                    print book_dict['title']
-                    books.append(Book(book_dict))
-                self.__class__.__dict__[key] = books
-                continue
-            self.__class__.__dict__[key] = val
-
-class SimilarBook(GoodreadObject):
-    def __init__(self, similar_book_dict):
-        GoodreadObject.__init__(self, similar_book_dict)
-
-class Book:
-    def __init__(self, book_dict):
-        for key, val in book_dict.items():
-            if key == 'authors':
-                authors = []
-                for author_dict in book_dict[key].values():
-                    authors.append(Author(author_dict))
-                self.__class__.__dict__[key] = authors
-                continue
-            if key == 'similar_books':
-                sim_books = []
-                for sim_book_list in book_dict[key].values():
-                    for sim_book_dict in sim_book_list:
-                        sim_books.append(SimilarBook(sim_book_dict))
-                self.__class__.__dict__[key] = sim_books
-                continue
-            self.__class__.__dict__[key] = val
-        #self.__class__.__dict__['publication_date'] = self.publication_date()
-
-    def publication_date(self):
-        year = int(self.publication_year)
-        month = int(self.publication_month)
-        day = int(self.publication_day)
-        return datetime.date(year, month, day)
 
 class Client:
     """A client for interacting with Goodreads resources."""
