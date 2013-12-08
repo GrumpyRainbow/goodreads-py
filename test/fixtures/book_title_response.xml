@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+    <key><![CDATA[ Nnq8zIQ2T3HmJJRFKE7GA ]]></key>
+    <method><![CDATA[ book_title ]]></method>
+  </Request>
+  <book>
+    <id>5759</id>
+    <title>Fight Club</title>
+    <isbn><![CDATA[ 0393327345 ]]></isbn>
+    <isbn13><![CDATA[ 9780393327342 ]]></isbn13>
+    <asin><![CDATA[ ]]></asin>
+    <image_url>
+https://d202m5krfqbpi5.cloudfront.net/books/1357128997m/5759.jpg
+</image_url>
+    <small_image_url>
+https://d202m5krfqbpi5.cloudfront.net/books/1357128997s/5759.jpg
+</small_image_url>
+    <publication_year>2005</publication_year>
+    <publication_month>10</publication_month>
+    <publication_day>17</publication_day>
+    <publisher>W.W. Norton  Company (NYC)</publisher>
+    <language_code>eng</language_code>
+    <is_ebook>false</is_ebook>
+    <description><![CDATA[
+An underground classic since its first publication in 1996, <em>Fight Club</em> is now recognized as one of the most original and provocative novels published in this decade. Chuck Palahniuk's darkly funny first novel tells the story of a godforsaken young man who discovers that his rage at living in a world filled with failure and lies cannot be pacified by an empty consumer culture. Relief for him and his disenfranchised peers comes in the form of secret after-hours boxing matches held in the basements of bars. <em>Fight Club</em> is the brainchild of Tyler Durden, who thinks he has found a way for himself and his friends to live beyond their confining and stultifying lives. But in Tyler's world there are no rules, no limits, no brakes.
+]]></description>
+    <work>
+      <best_book_id type="integer">5759</best_book_id>
+      <books_count type="integer">93</books_count>
+      <default_chaptering_book_id type="integer" nil="true"/>
+      <desc_user_id type="integer">14534296</desc_user_id>
+      <id type="integer">68729</id>
+      <media_type>book</media_type>
+      <original_language_id type="integer" nil="true"/>
+      <original_publication_day type="integer">17</original_publication_day>
+      <original_publication_month type="integer">8</original_publication_month>
+      <original_publication_year type="integer">1996</original_publication_year>
+      <original_title>Fight Club</original_title>
+      <rating_dist>5:53691|4:46632|3:20685|2:4424|1:1417|total:126849</rating_dist>
+      <ratings_count type="integer">206683</ratings_count>
+      <ratings_sum type="integer">862738</ratings_sum>
+      <reviews_count type="integer">321271</reviews_count>
+      <text_reviews_count type="integer">6098</text_reviews_count>
+    </work>
+    <average_rating>4.17</average_rating>
+    <num_pages><![CDATA[ 224 ]]></num_pages>
+    <format><![CDATA[ Paperback ]]></format>
+    <edition_information><![CDATA[ ]]></edition_information>
+    <ratings_count><![CDATA[ 197421 ]]></ratings_count>
+    <text_reviews_count><![CDATA[ 5208 ]]></text_reviews_count>
+    <url><![CDATA[
+https://www.goodreads.com/book/show/5759.Fight_Club
+]]></url>
+    <link><![CDATA[
+https://www.goodreads.com/book/show/5759.Fight_Club
+]]></link>
+    <authors>
+      <author>
+        <id>2546</id>
+        <name>Chuck Palahniuk</name>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
+]]></image_url>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
+]]></small_image_url>
+        <link><![CDATA[
+https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
+]]></link>
+        <average_rating>3.80</average_rating>
+        <ratings_count>707046</ratings_count>
+        <text_reviews_count>31742</text_reviews_count>
+      </author>
+    </authors>
+    <reviews_widget><![CDATA[
+<style> #goodreads-widget { font-family: georgia, serif; padding: 18px 0; width:565px; } #goodreads-widget h1 { font-weight:normal; font-size: 16px; border-bottom: 1px solid #BBB596; margin-bottom: 0; } #goodreads-widget a { text-decoration: none; color:#660; } iframe{ background-color: #fff; } #goodreads-widget a:hover { text-decoration: underline; } #goodreads-widget a:active { color:#660; } #gr_footer { width: 100%; border-top: 1px solid #BBB596; text-align: right; } #goodreads-widget .gr_branding{ color: #382110; font-size: 11px; text-decoration: none; font-family: verdana, arial, helvetica, sans-serif; } </style> <div id="goodreads-widget"> <div id="gr_header"><h1><a href="https://www.goodreads.com/book/show/5759.Fight_Club">Fight Club Reviews</a></h1></div> <iframe id="the_iframe" src="https://www.goodreads.com/api/reviews_widget_iframe?did=DEVELOPER_ID&amp;format=html&amp;isbn=0393327345&amp;links=660&amp;min_rating=&amp;review_back=fff&amp;stars=000&amp;text=000" width="565" height="400" frameborder="0"></iframe> <div id="gr_footer"> <a href="https://www.goodreads.com/book/show/5759.Fight_Club?utm_medium=api&amp;utm_source=reviews_widget" class="gr_branding" target="_blank">Reviews from Goodreads.com</a> </div> </div>
+]]></reviews_widget>
+    <popular_shelves>
+      <shelf name="to-read" count="99534"/>
+      <shelf name="fiction" count="2987"/>
+      <shelf name="favorites" count="2764"/>
+      <shelf name="currently-reading" count="2247"/>
+      <shelf name="contemporary" count="477"/>
+      <shelf name="thriller" count="389"/>
+      <shelf name="favourites" count="289"/>
+      <shelf name="novels" count="278"/>
+      <shelf name="literature" count="209"/>
+      <shelf name="classics" count="199"/>
+    </popular_shelves>
+    <book_links>
+      <book_link>
+        <id>1</id>
+        <name>Amazon</name>
+        <link>https://www.goodreads.com/book_link/follow/1</link>
+      </book_link>
+      <book_link>
+        <id>8</id>
+        <name>Libraries</name>
+        <link>https://www.goodreads.com/book_link/follow/8</link>
+      </book_link>
+      <book_link>
+        <id>1027</id>
+        <name>Kobo</name>
+        <link>https://www.goodreads.com/book_link/follow/1027</link>
+      </book_link>
+      <book_link>
+        <id>9</id>
+        <name>Indigo</name>
+        <link>https://www.goodreads.com/book_link/follow/9</link>
+      </book_link>
+      <book_link>
+        <id>4</id>
+        <name>Abebooks</name>
+        <link>https://www.goodreads.com/book_link/follow/4</link>
+      </book_link>
+      <book_link>
+        <id>2</id>
+        <name>Half.com</name>
+        <link>https://www.goodreads.com/book_link/follow/2</link>
+      </book_link>
+      <book_link>
+        <id>10</id>
+        <name>Audible</name>
+        <link>https://www.goodreads.com/book_link/follow/10</link>
+      </book_link>
+      <book_link>
+        <id>5</id>
+        <name>Alibris</name>
+        <link>https://www.goodreads.com/book_link/follow/5</link>
+      </book_link>
+      <book_link>
+        <id>882</id>
+        <name>Book Depository</name>
+        <link>https://www.goodreads.com/book_link/follow/882</link>
+      </book_link>
+      <book_link>
+        <id>2102</id>
+        <name>iBookstore</name>
+        <link>https://www.goodreads.com/book_link/follow/2102</link>
+      </book_link>
+      <book_link>
+        <id>245</id>
+        <name>Sony</name>
+        <link>https://www.goodreads.com/book_link/follow/245</link>
+      </book_link>
+      <book_link>
+        <id>107</id>
+        <name>Better World Books</name>
+        <link>https://www.goodreads.com/book_link/follow/107</link>
+      </book_link>
+      <book_link>
+        <id>3928</id>
+        <name>Target.com</name>
+        <link>https://www.goodreads.com/book_link/follow/3928</link>
+      </book_link>
+      <book_link>
+        <id>1602</id>
+        <name>Google Play</name>
+        <link>https://www.goodreads.com/book_link/follow/1602</link>
+      </book_link>
+      <book_link>
+        <id>7</id>
+        <name>IndieBound</name>
+        <link>https://www.goodreads.com/book_link/follow/7</link>
+      </book_link>
+      <book_link>
+        <id>5858</id>
+        <name>Amazon ES</name>
+        <link>https://www.goodreads.com/book_link/follow/5858</link>
+      </book_link>
+    </book_links>
+    <series_works/>
+    <similar_books>
+      <book>
+        <id>9293020</id>
+        <title>The Elephant Tree</title>
+        <isbn>1848764561</isbn>
+        <isbn13>9781848764569</isbn13>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1327248026s/9293020.jpg
+]]></small_image_url>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1327248026m/9293020.jpg
+]]></image_url>
+        <average_rating>3.67</average_rating>
+        <ratings_count>3788</ratings_count>
+        <authors>
+          <author>
+            <id>4346642</id>
+            <name>R.D. Ronald</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>46945</id>
+        <title>Requiem for a Dream</title>
+        <isbn>1560252480</isbn>
+        <isbn13>9781560252481</isbn13>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1353949849s/46945.jpg
+]]></small_image_url>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1353949849m/46945.jpg
+]]></image_url>
+        <average_rating>4.05</average_rating>
+        <ratings_count>22082</ratings_count>
+        <authors>
+          <author>
+            <id>26335</id>
+            <name>Hubert Selby Jr.</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>135836</id>
+        <title>Trainspotting</title>
+        <isbn>0099465892</isbn>
+        <isbn13>9780099465898</isbn13>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1353033083s/135836.jpg
+]]></small_image_url>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1353033083m/135836.jpg
+]]></image_url>
+        <average_rating>4.09</average_rating>
+        <ratings_count>5121</ratings_count>
+        <authors>
+          <author>
+            <id>5687</id>
+            <name>Irvine Welsh</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>527823</id>
+        <title>The Contortionist's Handbook</title>
+        <isbn>1931561486</isbn>
+        <isbn13>9781931561488</isbn13>
+        <small_image_url><![CDATA[ https://www.goodreads.com/assets/nocover/60x80.png ]]></small_image_url>
+        <image_url><![CDATA[
+https://www.goodreads.com/assets/nocover/111x148.png
+]]></image_url>
+        <average_rating>4.05</average_rating>
+        <ratings_count>3993</ratings_count>
+        <authors>
+          <author>
+            <id>18686</id>
+            <name>Craig Clevenger</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>28676</id>
+        <title>American Psycho</title>
+        <isbn>0679735771</isbn>
+        <isbn13>9780679735779</isbn13>
+        <small_image_url><![CDATA[ https://www.goodreads.com/assets/nocover/60x80.png ]]></small_image_url>
+        <image_url><![CDATA[
+https://www.goodreads.com/assets/nocover/111x148.png
+]]></image_url>
+        <average_rating>3.79</average_rating>
+        <ratings_count>88940</ratings_count>
+        <authors>
+          <author>
+            <id>2751</id>
+            <name>Bret Easton Ellis</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>7745</id>
+        <title><![CDATA[ Fear and Loathing in Las Vegas ]]></title>
+        <isbn>0679785892</isbn>
+        <isbn13>9780679785897</isbn13>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1333056001s/7745.jpg
+]]></small_image_url>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1333056001m/7745.jpg
+]]></image_url>
+        <average_rating>4.08</average_rating>
+        <ratings_count>133521</ratings_count>
+        <authors>
+          <author>
+            <id>5237</id>
+            <name>Hunter S. Thompson</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>682745</id>
+        <title>The Basketball Diaries</title>
+        <isbn>0140100180</isbn>
+        <isbn13>9780140100181</isbn13>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1331057236s/682745.jpg
+]]></small_image_url>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1331057236m/682745.jpg
+]]></image_url>
+        <average_rating>3.98</average_rating>
+        <ratings_count>10428</ratings_count>
+        <authors>
+          <author>
+            <id>22832</id>
+            <name>Jim Carroll</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>222340</id>
+        <title>Hell's Half Acre</title>
+        <isbn>1931561826</isbn>
+        <isbn13>9781931561822</isbn13>
+        <small_image_url><![CDATA[ https://www.goodreads.com/assets/nocover/60x80.png ]]></small_image_url>
+        <image_url><![CDATA[
+https://www.goodreads.com/assets/nocover/111x148.png
+]]></image_url>
+        <average_rating>4.19</average_rating>
+        <ratings_count>599</ratings_count>
+        <authors>
+          <author>
+            <id>41586</id>
+            <name>Will Christopher Baer</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>12497</id>
+        <title>No Country for Old Men</title>
+        <isbn>0375706674</isbn>
+        <isbn13>9780375706677</isbn13>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1375288637s/12497.jpg
+]]></small_image_url>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1375288637m/12497.jpg
+]]></image_url>
+        <average_rating>4.09</average_rating>
+        <ratings_count>58877</ratings_count>
+        <authors>
+          <author>
+            <id>4178</id>
+            <name>Cormac McCarthy</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>59978</id>
+        <title><![CDATA[
+Sin City, Vol. 4: That Yellow Bastard (Sin City, #4)
+]]></title>
+        <isbn>1593072961</isbn>
+        <isbn13>9781593072964</isbn13>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1357010492s/59978.jpg
+]]></small_image_url>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1357010492m/59978.jpg
+]]></image_url>
+        <average_rating>4.20</average_rating>
+        <ratings_count>17054</ratings_count>
+        <authors>
+          <author>
+            <id>15085</id>
+            <name>Frank Miller</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>497199</id>
+        <title>Factotum</title>
+        <isbn>0876852630</isbn>
+        <isbn13>9780876852637</isbn13>
+        <small_image_url><![CDATA[ https://www.goodreads.com/assets/nocover/60x80.png ]]></small_image_url>
+        <image_url><![CDATA[
+https://www.goodreads.com/assets/nocover/111x148.png
+]]></image_url>
+        <average_rating>3.99</average_rating>
+        <ratings_count>19534</ratings_count>
+        <authors>
+          <author>
+            <id>13275</id>
+            <name>Charles Bukowski</name>
+          </author>
+        </authors>
+      </book>
+      <book>
+        <id>285092</id>
+        <title>High Fidelity</title>
+        <isbn>1573225517</isbn>
+        <isbn13>9781573225519</isbn13>
+        <small_image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1327928082s/285092.jpg
+]]></small_image_url>
+        <image_url><![CDATA[
+https://d202m5krfqbpi5.cloudfront.net/books/1327928082m/285092.jpg
+]]></image_url>
+        <average_rating>3.95</average_rating>
+        <ratings_count>94441</ratings_count>
+        <authors>
+          <author>
+            <id>2929</id>
+            <name>Nick Hornby</name>
+          </author>
+        </authors>
+      </book>
+    </similar_books>
+  </book>
+</GoodreadsResponse>
