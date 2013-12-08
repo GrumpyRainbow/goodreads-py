@@ -1,5 +1,7 @@
 Python wrapper to communicate with Goodreads API.
 
+[![Build Status](https://travis-ci.org/GrumpyRainbow/goodreads-py.png)](https://travis-ci.org/GrumpyRainbow/goodreads-py)
+
 ## Getting Started
 
 ``` python
