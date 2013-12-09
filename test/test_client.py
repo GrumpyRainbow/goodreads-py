@@ -67,6 +67,12 @@ def test_author_by_id():
     eq_('2546', author.id)
     eq_('Chuck Palahniuk', author.name)
 
+    expected_books = ['Fight Club', 'Choke', 'Invisible Monsters',
+                      'Survivor', 'Lullaby', 'Haunted', 'Diary',
+                      'Rant', 'Snuff', 'Stranger Than Fiction']
+
+    eq_(expected_books, [book.title for book in author.books])
+
 @httpretty.activate
 def test_get_author_id():
     """Test that verifies that an author's id is properly returned."""

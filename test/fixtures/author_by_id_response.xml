@@ -1,253 +1,356 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GoodreadsResponse>
   <Request>
     <authentication>true</authentication>
-    <key><![CDATA[ 123abc ]]></key>
-    <method><![CDATA[ author_show ]]></method>
+      <key><![CDATA[cLSC2tFNIna77ErTTwj2Q]]></key>
+    <method><![CDATA[author_show]]></method>
   </Request>
+  <author>
+  <id>2546</id>
+  <name>Chuck Palahniuk</name>
+  <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+  <fans_count type="integer">14380</fans_count>
+  <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+  <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+  <about><![CDATA[Charles Michael "Chuck" Palahniuk is an American Transgressional fiction novelist and freelance journalist of Ukrainian ancestry born in Pasco, Washington. The press release for his book, <em>Rant</em>, states he is now living in Vancouver, Washington. He is best known for the award-winning novel <em>Fight Club</em>, which was later made into a film directed by David Fincher.]]></about>
+  <influences><![CDATA[<a href="http://www.goodreads.com/author/show/29805.Breece_D_J_Pancake" title="Breece D'J Pancake">Breece D'J Pancake</a>, <a href="http://www.goodreads.com/author/show/233.Don_DeLillo" title="Don DeLillo">Don DeLillo</a>, <a href="http://www.goodreads.com/author/show/2751.Bret_Easton_Ellis" title="Bret Easton Ellis">Bret Easton Ellis</a>, <a href="http://www.goodreads.com/author/show/44415.Tom_Spanbauer" title="Tom Spanbauer">Tom Spanbauer</a>, <a href="http://www.goodreads.com/author/show/6468.Denis_Johnson" title="Denis Johnson">Denis Johnson</a>]]></influences>
+  <works_count>47</works_count>
+  <gender>male</gender>
+  <hometown>Pasco, WA</hometown>
+  <born_at>1962/02/21</born_at>
+  <died_at></died_at>
+  <books>
+    <book>
+  <id type="integer">5759</id>
+  <isbn>0393327345</isbn>
+  <isbn13>9780393327342</isbn13>
+  <text_reviews_count type="integer">5209</text_reviews_count>
+  <title>Fight Club</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1357128997m/5759.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1357128997s/5759.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/5759.Fight_Club</link>
+  <num_pages>224</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>W.W. Norton &amp; Company (NYC)</publisher>
+  <publication_day>17</publication_day>
+  <publication_year>2005</publication_year>
+  <publication_month>10</publication_month>
+  <average_rating>4.17</average_rating>
+  <ratings_count>206717</ratings_count>
+  <description>An underground classic since its first publication in 1996, &lt;em&gt;Fight Club&lt;/em&gt; is now recognized as one of the most original and provocative novels published in this decade. Chuck Palahniuk's darkly funny first novel tells the story of a godforsaken young man who discovers that his rage at living in a world filled with failure and lies cannot be pacified by an empty consumer culture. Relief for him and his disenfranchised peers comes in the form of secret after-hours boxing matches held in the basements of bars. &lt;em&gt;Fight Club&lt;/em&gt; is the brainchild of Tyler Durden, who thinks he has found a way for himself and his friends to live beyond their confining and stultifying lives. But in Tyler's world there are no rules, no limits, no brakes.</description>
+<authors>
   <author>
     <id>2546</id>
     <name>Chuck Palahniuk</name>
-    <link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link>
-    <fans_count type="integer">14380</fans_count>
-    <image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url>
-    <small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url>
-    <about><![CDATA[
-Charles Michael "Chuck" Palahniuk is an American Transgressional fiction novelist and freelance journalist of Ukrainian ancestry born in Pasco, Washington. The press release for his book, <em>Rant</em>, states he is now living in Vancouver, Washington. He is best known for the award-winning novel <em>Fight Club</em>, which was later made into a film directed by David Fincher.
-]]></about>
-    <influences><![CDATA[
-<a href="http://www.goodreads.com/author/show/29805.Breece_D_J_Pancake" title="Breece D'J Pancake">Breece D'J Pancake</a>, <a href="http://www.goodreads.com/author/show/233.Don_DeLillo" title="Don DeLillo">Don DeLillo</a>, <a href="http://www.goodreads.com/author/show/2751.Bret_Easton_Ellis" title="Bret Easton Ellis">Bret Easton Ellis</a>, <a href="http://www.goodreads.com/author/show/44415.Tom_Spanbauer" title="Tom Spanbauer">Tom Spanbauer</a>, <a href="http://www.goodreads.com/author/show/6468.Denis_Johnson" title="Denis Johnson">Denis Johnson</a>
-]]></influences>
-    <works_count>47</works_count>
-    <gender>male</gender>
-    <hometown>Pasco, WA</hometown>
-    <born_at>1962/02/21</born_at>
-    <died_at/>
-    <books>
-      <book>
-        <id type="integer">5759</id>
-        <isbn>0393327345</isbn>
-        <isbn13>9780393327342</isbn13>
-        <text_reviews_count type="integer">5208</text_reviews_count>
-        <title>Fight Club</title>
-        <image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1357128997m/5759.jpg
-</image_url>
-        <small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1357128997s/5759.jpg
-</small_image_url>
-        <link>
-https://www.goodreads.com/book/show/5759.Fight_Club
-</link>
-        <num_pages>224</num_pages>
-        <format>Paperback</format>
-        <edition_information/>
-        <publisher>W.W. Norton  Company (NYC)</publisher>
-        <publication_day>17</publication_day>
-        <publication_year>2005</publication_year>
-        <publication_month>10</publication_month>
-        <average_rating>4.17</average_rating>
-        <ratings_count>206702</ratings_count>
-        <description>
-An underground classic since its first publication in 1996, <em>Fight Club</em> is now recognized as one of the most original and provocative novels published in this decade. Chuck Palahniuk's darkly funny first novel tells the story of a godforsaken young man who discovers that his rage at living in a world filled with failure and lies cannot be pacified by an empty consumer culture. Relief for him and his disenfranchised peers comes in the form of secret after-hours boxing matches held in the basements of bars. <em>Fight Club</em> is the brainchild of Tyler Durden, who thinks he has found a way for himself and his friends to live beyond their confining and stultifying lives. But in Tyler's world there are no rules, no limits, no brakes.
-</description>
-        <authors>
-          <author>
-            <id>2546</id>
-            <name>Chuck Palahniuk</name>
-            <image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url>
-            <small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url>
-            <link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link>
-            <average_rating>3.80</average_rating>
-            <ratings_count>707064</ratings_count>
-            <text_reviews_count>31743</text_reviews_count>
-          </author>
-        </authors>
-        <published>2005</published>
-      </book>
-      <book>
-        <id type="integer">29059</id>
-        <isbn>0385720920</isbn>
-        <isbn13>9780385720922</isbn13>
-        <text_reviews_count type="integer">3672</text_reviews_count>
-        <title>Choke</title>
-        <image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320455346m/29059.jpg
-</image_url>
-        <small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320455346s/29059.jpg
-</small_image_url>
-        <link>https://www.goodreads.com/book/show/29059.Choke</link>
-        <num_pages>293</num_pages>
-        <format>Paperback</format>
-        <edition_information/>
-        <publisher>Anchor Books</publisher>
-        <publication_day/>
-        <publication_year>2002</publication_year>
-        <publication_month>6</publication_month>
-        <average_rating>3.66</average_rating>
-        <ratings_count>105776</ratings_count>
-        <description>
-Victor Mancini, a medical-school dropout, is an antihero for our deranged times. Needing to pay elder care for his mother, Victor has devised an ingenious scam: he pretends to choke on pieces of food while dining in upscale restaurants. He then allows himself to be &#x201C;saved&#x201D; by fellow patrons who, feeling responsible for Victor&#x2019;s life, go on to send checks to support him. When he&#x2019;s not pulling this stunt, Victor cruises sexual addiction recovery workshops for action, visits his addled mom, and spends his days working at a colonial theme park. His creator, Chuck Palahniuk, is the visionary we need and the satirist we deserve.
-</description>
-        <authors>
-          <author>
-            <id>2546</id>
-            <name>Chuck Palahniuk</name>
-            <image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url>
-            <small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url>
-            <link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link>
-            <average_rating>3.80</average_rating>
-            <ratings_count>707064</ratings_count>
-            <text_reviews_count>31743</text_reviews_count>
-          </author>
-        </authors>
-        <published>2002</published>
-      </book>
-      <book>
-        <id type="integer">3304435</id>
-        <isbn nil="true"/>
-        <isbn13 nil="true"/>
-        <text_reviews_count type="integer">200</text_reviews_count>
-        <title>Invisible Monsters</title>
-        <image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1265423630m/3304435.jpg
-</image_url>
-        <small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1265423630s/3304435.jpg
-</small_image_url>
-        <link>
-https://www.goodreads.com/book/show/3304435-invisible-monsters
-</link>
-        <num_pages>304</num_pages>
-        <format>Paperback</format>
-        <edition_information/>
-        <publisher>W. W. Norton  Company</publisher>
-        <publication_day>17</publication_day>
-        <publication_year>1999</publication_year>
-        <publication_month>9</publication_month>
-        <average_rating>3.97</average_rating>
-        <ratings_count>60355</ratings_count>
-        <description>
-When the plot of your first novel partially hinges on anarchist overthrows funded by soap sales, and the narrative hook of your second work is the black box recorder of a jet moments away from slamming into the Australian outback, it stands to reason that your audience is going to be ready for anything. Which, to an author like Chuck Palahniuk, must sound like a challenge.<br><br>Palahniuk's third identity crisis (that's "novel" to you), <em>Invisible Monsters</em>, more than ably responds to this call to arms. Set once again in an all-too-familiar modern wasteland where social disease and self-hatred can do more damage than any potboiler-fiction bad guy, the tale focuses particularly on a group of drag queens and fashion models trekking cross-country to find themselves, looking everywhere from the bottom of a vial of Demerol to the end of a shotgun barrel. It's a sort of <em>Drugstore Cowboy</em>-meets-<em>Yentl</em> affair, or a Hope-Crosby road movie with a skin graft and hormone-pill obsession, if you know what I mean.<br><br>Um, yeah. Anyway, the Hollywood vibe doesn't stop these comparisons. As with <em>Fight Club</em> and <em>Survivor</em>, the book is invested with a cinematic sweep, from the opening set piece, which takes off like a house afire (literally), to a host of filmic tics sprayed throughout the text: "Flash," "Jump back," "Jump way ahead," "Flash," "Flash," "Flash." You get the idea. It's as if Palahniuk didn't write the thing but yanked it directly out of the Cineplex of his mind's eye. Does it succeed? Mostly. Still working on measuring out the proper dosages of his many writerly talents (equal parts potent imagery, nihilistic coolspeak, and doped-out craziness), Palahniuk every now and then loosens his grip on the story line, which at points becomes as hard to decipher as your local pill addict's medicine cabinet. However <em>Invisible Monsters</em> works best on a roller-coaster level. You don't stop and count each slot on the track as you're going down the big hill. You throw up your hands and yell, <em>"Whee!"</em> <em>--Bob Michaels</em>
-</br><authors><author><id>2546</id><name>Chuck Palahniuk</name><image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url><small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url><link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link><average_rating>3.80</average_rating><ratings_count>707064</ratings_count><text_reviews_count>31743</text_reviews_count></author></authors><published>1999</published></br>
-<book><id type="integer">7076703</id><isbn>039333807X</isbn><isbn13>9780393338072</isbn13><text_reviews_count type="integer">52</text_reviews_count><title>Survivor</title><image_url>
-https://www.goodreads.com/assets/nocover/111x148.png
-</image_url><small_image_url>https://www.goodreads.com/assets/nocover/60x80.png</small_image_url><link>
-https://www.goodreads.com/book/show/7076703-survivor
-</link><num_pages>289</num_pages><format>Paperback</format><edition_information/><publisher>W. W. Norton  Company</publisher><publication_day>5</publication_day><publication_year>2010</publication_year><publication_month>4</publication_month><average_rating>3.91</average_rating><ratings_count>56985</ratings_count><description><strong>&#x201C;A wild amphetamine ride through the vagaries of fame and the nature of belief.&#x201D;&#x2014;San Francisco Chronicle</strong><br><br>Tender Branson&#x2014;last surviving member of the Creedish Death Cult&#x2014;is dictating his life story into Flight 2039&#x2019;s recorder. He is all alone in the airplane, which will crash shortly into the vast Australian outback. But before it does, he will unfold the tale of his journey from an obedient Creedish child to an ultra-buffed, steroid- and collagen-packed media messiah. Unpredictable and unforgettable, Survivor is Chuck Palahniuk at his deadpan peak: a mesmerizing, unnerving, and hilarious satire on the wages of fame and the bedrock lunacy of the modern world.
-</br><authors><author><id>2546</id><name>Chuck Palahniuk</name><image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url><small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url><link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link><average_rating>3.80</average_rating><ratings_count>707064</ratings_count><text_reviews_count>31743</text_reviews_count></author></authors><published>2010</published></br><book><id type="integer">22206</id><isbn>0099437961</isbn><isbn13>9780099437963</isbn13><text_reviews_count type="integer">1275</text_reviews_count><title>Lullaby</title><image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1327268513m/22206.jpg
-</image_url><small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1327268513s/22206.jpg
-</small_image_url><link>https://www.goodreads.com/book/show/22206.Lullaby</link><num_pages>260</num_pages><format>Paperback</format><edition_information/><publisher>Vintage</publisher><publication_day>5</publication_day><publication_year>2003</publication_year><publication_month>6</publication_month><average_rating>3.70</average_rating><ratings_count>51261</ratings_count><description>
-Ever heard of a culling song? It&#x2019;s a lullaby sung in Africa to give a painless death to the old or infirm. The lyrics of a culling song kill, whether spoken or even just thought. You can find one on page 27 of Poems and Rhymes from Around the World, an anthology that is sitting on the shelves of libraries across the country, waiting to be picked up by unsuspecting readers.<br><br>Reporter Carl Streator discovers the song&#x2019;s lethal nature while researching Sudden Infant Death Syndrome, and before he knows it, he&#x2019;s reciting the poem to anyone who bothers him. As the body count rises, Streator glimpses the potential catastrophe if someone truly malicious finds out about the song. The only answer is to find and destroy every copy of the book in the country. Accompanied by a shady real-estate agent, her Wiccan assistant, and the assistant&#x2019;s truly annoying ecoterrorist boyfriend, Streator begins a desperate cross-country quest to put the culling song to rest.
-</br><authors><author><id>2546</id><name>Chuck Palahniuk</name><image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url><small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url><link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link><average_rating>3.80</average_rating><ratings_count>707064</ratings_count><text_reviews_count>31743</text_reviews_count></author></authors><published>2003</published></br>
-<book><id type="integer">22288</id><isbn>1400032822</isbn><isbn13>9781400032822</isbn13><text_reviews_count type="integer">2509</text_reviews_count><title>Haunted</title><image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320550987m/22288.jpg
-</image_url><small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320550987s/22288.jpg
-</small_image_url><link>https://www.goodreads.com/book/show/22288.Haunted</link><num_pages>411</num_pages><format>Paperback</format><edition_information/><publisher>Anchor</publisher><publication_day>11</publication_day><publication_year>2006</publication_year><publication_month>4</publication_month><average_rating>3.52</average_rating><ratings_count>45572</ratings_count><description><em>Haunted</em> is a novel made up of twenty-three horrifying, hilarious, and stomach-churning stories. They&#x2019;re told by people who have answered an ad for a writer&#x2019;s retreat and unwittingly joined a &#x201C;Survivor&#x201D;-like scenario where the host withholds heat, power, and food. As the storytellers grow more desperate, their tales become more extreme, and they ruthlessly plot to make themselves the hero of the reality show that will surely be made from their plight. This is one of the most disturbing and outrageous books you&#x2019;ll ever read, one that could only come from the mind of Chuck Palahniuk.
-</description><authors><author><id>2546</id><name>Chuck Palahniuk</name><image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url><small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url><link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link><average_rating>3.80</average_rating><ratings_count>707064</ratings_count><text_reviews_count>31743</text_reviews_count></author></authors><published>2006</published></book>
-<book><id type="integer">22284</id><isbn>1400032814</isbn><isbn13>9781400032815</isbn13><text_reviews_count type="integer">1460</text_reviews_count><title>Diary</title><image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320550983m/22284.jpg
-</image_url><small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320550983s/22284.jpg
-</small_image_url><link>https://www.goodreads.com/book/show/22284.Diary</link><num_pages>262</num_pages><format>Paperback</format><edition_information/><publisher>Anchor</publisher><publication_day>14</publication_day><publication_year>2004</publication_year><publication_month>9</publication_month><average_rating>3.55</average_rating><ratings_count>42225</ratings_count><description>
-Misty Wilmot has had it. Once a promising young artist, she&#x2019;s now stuck on an island ruined by tourism, drinking too much and working as a waitress in a hotel. Her husband, a contractor, is in a coma after a suicide attempt, but that doesn&#x2019;t stop his clients from threatening Misty with lawsuits over a series of vile messages they&#x2019;ve found on the walls of houses he remodeled.<br><br>Suddenly, though, Misty finds her artistic talent returning as she begins a period of compulsive painting. Inspired but confused by this burst of creativity, she soon finds herself a pawn in a larger conspiracy that threatens to cost hundreds of lives. What unfolds is a dark, hilarious story from America&#x2019;s most inventive nihilist, and Palahniuk&#x2019;s most impressive work to date.
-</br><authors><author><id>2546</id><name>Chuck Palahniuk</name><image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url><small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url><link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link><average_rating>3.80</average_rating><ratings_count>707064</ratings_count><text_reviews_count>31743</text_reviews_count></author></authors><published>2004</published></br>
-<book><id type="integer">22285</id><isbn>0385517874</isbn><isbn13>9780385517874</isbn13><text_reviews_count type="integer">1874</text_reviews_count><title>Rant</title><image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320410097m/22285.jpg
-</image_url><small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320410097s/22285.jpg
-</small_image_url><link>https://www.goodreads.com/book/show/22285.Rant</link><num_pages>320</num_pages><format>Hardcover</format><edition_information/><publisher>Doubleday</publisher><publication_day>1</publication_day><publication_year>2007</publication_year><publication_month>5</publication_month><average_rating>3.78</average_rating><ratings_count>34460</ratings_count><description><strong>&#x201C;Like most people I didn&#x2019;t meet Rant Casey until after he was dead. That&#x2019;s how it works for most celebrities: After they croak, their circle of friends just explodes.&#x2026;&#x201D;<br/><br><br><em>Rant</em> is the mind-bending new novel from Chuck Palahniuk, the literary provocateur responsible for such books as the generation-defining classic <em>Fight Club</em> and the pedal-to-the-metal horrorfest <em>Haunted</em>. It takes the form of an oral history of one Buster &#x201C;Rant&#x201D; Casey, who may or may not be the most efficient serial killer of our time.<br><br><br><strong>&#x201C;What &#x2018;Typhoid Mary&#x2019; Mallon was to typhoid, what Gaetan Dugas was to AIDS, and Liu Jian-lun was to SARS, Buster Casey would become for rabies.&#x201D;<br><br/><br>A high school rebel who always wins (and a childhood murderer?), Rant Casey escapes from his small hometown of Middleton for the big city. He becomes the leader of an urban demolition derby called Party Crashing. On appointed nights participants recognize one another by such designated car markings as &#x201C;Just Married&#x201D; toothpaste graffiti and then stalk and crash into each other. Rant Casey will die a spectacular highway death, after which his friends gather testimony needed to build an oral history of his short, violent life. Their collected anecdotes explore the possibility that his saliva caused a silent urban plague of rabies and that he found a way to escape the prison house of linear time.&#x2026;<br><br><br><strong>&#x201C;The future you have, tomorrow, won&#x2019;t be the same future you had, yesterday.&#x201D;<br>&#x2014;Rant Casey<br/><br><br>Expect hilarity, horror, and blazing insight into the desperate and surreal contemporary human condition as only Chuck Palahniuk can deliver it. He's the postmillennial Jonathan Swift, the visionary to watch to learn what's &#x2014;<em>uh-oh</em>&#x2014;coming next.
-</br><authors><author><id>2546</id><name>Chuck Palahniuk</name><image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url><small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url><link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link><average_rating>3.80</average_rating><ratings_count>707064</ratings_count><text_reviews_count>31743</text_reviews_count></author></authors><published>2007</published></br>
-<book><id type="integer">1840511</id><isbn>0385517882</isbn><isbn13>9780385517881</isbn13><text_reviews_count type="integer">1744</text_reviews_count><title>Snuff</title><image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320410088m/1840511.jpg
-</image_url><small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320410088s/1840511.jpg
-</small_image_url><link>https://www.goodreads.com/book/show/1840511.Snuff</link><num_pages>208</num_pages><format>Hardcover</format><edition_information/><publisher>Doubleday</publisher><publication_day>20</publication_day><publication_year>2008</publication_year><publication_month>5</publication_month><average_rating>3.13</average_rating><ratings_count>29469</ratings_count><description><strong>From the master of literary mayhem and provocation, a full-frontal Triple X novel that goes where no American work of fiction has gone before<br/><br>Cassie Wright, porn priestess, intends to cap her legendary career by breaking the world record for serial fornication. On camera. With six hundred men. <em>Snuff</em> unfolds from the perspectives of Mr. 72, Mr. 137, and Mr. 600, who await their turn on camera in a<em> very crowded</em> green room. This wild, lethally funny, and thoroughly researched novel brings the huge yet underacknowledged presence of pornography in contemporary life into the realm of literary fiction at last. Who else but Chuck Palahniuk would dare do such a thing? Who else could do it so well, so unflinchingly, and with such an incendiary (you might say) climax?
-</br>
-<authors><author><id>2546</id><name>Chuck Palahniuk</name><image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url><small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url><link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link><average_rating>3.80</average_rating><ratings_count>707064</ratings_count><text_reviews_count>31743</text_reviews_count></author></authors>
-<published>2008</published>
-</strong><book><id type="integer">3717</id><isbn>0385722222</isbn><isbn13>9780385722223</isbn13><text_reviews_count type="integer">497</text_reviews_count><title>Stranger Than Fiction</title><image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320397032m/3717.jpg
-</image_url><small_image_url>
-https://d202m5krfqbpi5.cloudfront.net/books/1320397032s/3717.jpg
-</small_image_url><link>
-https://www.goodreads.com/book/show/3717.Stranger_Than_Fiction
-</link><num_pages>233</num_pages><format>Paperback</format><edition_information/><publisher>Anchor</publisher><publication_day>10</publication_day><publication_year>2005</publication_year><publication_month>5</publication_month><average_rating>3.55</average_rating><ratings_count>15879</ratings_count><description>
-Chuck Palahniuk&#x2019;s world has always been, well, different from yours and mine. In his first collection of nonfiction, Chuck Palahniuk brings us into this world, and gives us a glimpse of what inspires his fiction. At the Rock Creek Lodge Testicle Festival in Missoula, Montana, average people perform public sex acts on an outdoor stage. In a mansion once occupied by The Rolling Stones, Marilyn Manson reads his own Tarot cards and talks sweetly to his beautiful actress girlfriend. Across the country, men build their own full-size castles and rocketships that will send them into space. Palahniuk himself experiments with steroids, works on an assembly line by day and as a hospice volunteer by night, and experiences the brutal murder of his father by a white supremacist. With this new direction, Chuck Palahniuk has proven he can do anything.
-</description><authors><author><id>2546</id><name>Chuck Palahniuk</name><image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg
-]]></image_url><small_image_url><![CDATA[
-https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg
-]]></small_image_url><link><![CDATA[
-https://www.goodreads.com/author/show/2546.Chuck_Palahniuk
-]]></link><average_rating>3.80</average_rating><ratings_count>707064</ratings_count><text_reviews_count>31743</text_reviews_count></author></authors><published>2005</published></book></description></book>
-</br>
-</strong></br></br></br></br></br></strong></br></br></br></br></br></strong></description></book></description></book></description></book></description></book></br></br></description>
-      </book>
-    </books>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
   </author>
+</authors>
+  <published>2005</published>
+</book>
+    <book>
+  <id type="integer">29059</id>
+  <isbn>0385720920</isbn>
+  <isbn13>9780385720922</isbn13>
+  <text_reviews_count type="integer">3672</text_reviews_count>
+  <title>Choke</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320455346m/29059.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320455346s/29059.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/29059.Choke</link>
+  <num_pages>293</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Anchor Books</publisher>
+  <publication_day/>
+  <publication_year>2002</publication_year>
+  <publication_month>6</publication_month>
+  <average_rating>3.66</average_rating>
+  <ratings_count>105781</ratings_count>
+  <description>Victor Mancini, a medical-school dropout, is an antihero for our deranged times. Needing to pay elder care for his mother, Victor has devised an ingenious scam: he pretends to choke on pieces of food while dining in upscale restaurants. He then allows himself to be “saved” by fellow patrons who, feeling responsible for Victor’s life, go on to send checks to support him. When he’s not pulling this stunt, Victor cruises sexual addiction recovery workshops for action, visits his addled mom, and spends his days working at a colonial theme park. His creator, Chuck Palahniuk, is the visionary we need and the satirist we deserve.</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>2002</published>
+</book>
+    <book>
+  <id type="integer">3304435</id>
+  <isbn nil="true"/>
+  <isbn13 nil="true"/>
+  <text_reviews_count type="integer">200</text_reviews_count>
+  <title>Invisible Monsters</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1265423630m/3304435.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1265423630s/3304435.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/3304435-invisible-monsters</link>
+  <num_pages>304</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>W. W. Norton &amp; Company</publisher>
+  <publication_day>17</publication_day>
+  <publication_year>1999</publication_year>
+  <publication_month>9</publication_month>
+  <average_rating>3.97</average_rating>
+  <ratings_count>60360</ratings_count>
+  <description>When the plot of your  first novel partially hinges on anarchist overthrows funded by soap sales, and the narrative hook of your second work is the black box recorder of a jet moments away from slamming into the Australian outback, it stands to reason that your audience is going to be ready for anything. Which, to an author like Chuck Palahniuk, must sound like a challenge.&lt;br&gt;&lt;br&gt;Palahniuk's third identity crisis (that's "novel" to you), &lt;em&gt;Invisible Monsters&lt;/em&gt;, more than ably responds to this call to arms. Set once again in an all-too-familiar modern wasteland where social disease and self-hatred can do more damage than any potboiler-fiction bad guy, the tale focuses particularly on a group of drag queens and fashion models trekking cross-country to find themselves, looking everywhere from the bottom of a vial of Demerol to the end of a shotgun barrel. It's a sort of &lt;em&gt;Drugstore Cowboy&lt;/em&gt;-meets-&lt;em&gt;Yentl&lt;/em&gt; affair, or a Hope-Crosby road movie with a skin graft and hormone-pill obsession, if you know what I mean.&lt;br&gt;&lt;br&gt;Um, yeah. Anyway, the Hollywood vibe doesn't stop these comparisons. As with &lt;em&gt;Fight Club&lt;/em&gt; and &lt;em&gt;Survivor&lt;/em&gt;, the book is invested with a cinematic sweep, from the opening set piece, which takes off like a house afire (literally), to a host of filmic tics sprayed throughout the text: "Flash," "Jump back," "Jump way ahead," "Flash," "Flash," "Flash." You get the idea. It's as if Palahniuk didn't write the thing but yanked it directly out of the Cineplex of his mind's eye. Does it succeed? Mostly. Still working on measuring out the proper dosages of his many writerly talents (equal parts potent imagery, nihilistic coolspeak, and doped-out craziness), Palahniuk every now and then loosens his grip on the story line, which at points becomes as hard to decipher as your local pill addict's medicine cabinet. However &lt;em&gt;Invisible Monsters&lt;/em&gt; works best on a roller-coaster level. You don't stop and count each slot on the track as you're going down the big hill. You throw up your hands and yell, &lt;em&gt;"Whee!"&lt;/em&gt; &lt;em&gt;--Bob Michaels&lt;/em&gt;</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>1999</published>
+</book>
+    <book>
+  <id type="integer">7076703</id>
+  <isbn>039333807X</isbn>
+  <isbn13>9780393338072</isbn13>
+  <text_reviews_count type="integer">52</text_reviews_count>
+  <title>Survivor</title>
+  <image_url>https://www.goodreads.com/assets/nocover/111x148.png</image_url>
+  <small_image_url>https://www.goodreads.com/assets/nocover/60x80.png</small_image_url>
+  <link>https://www.goodreads.com/book/show/7076703-survivor</link>
+  <num_pages>289</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>W. W. Norton &amp; Company</publisher>
+  <publication_day>5</publication_day>
+  <publication_year>2010</publication_year>
+  <publication_month>4</publication_month>
+  <average_rating>3.91</average_rating>
+  <ratings_count>56985</ratings_count>
+  <description>&lt;strong&gt;“A wild amphetamine ride through the vagaries of fame and the nature of belief.”—San Francisco Chronicle&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Tender Branson—last surviving member of the Creedish Death Cult—is dictating his life story into Flight 2039’s recorder. He is all alone in the airplane, which will crash shortly into the vast Australian outback. But before it does, he will unfold the tale of his journey from an obedient Creedish child to an ultra-buffed, steroid- and collagen-packed media messiah. Unpredictable and unforgettable, Survivor is Chuck Palahniuk at his deadpan peak: a mesmerizing, unnerving, and hilarious satire on the wages of fame and the bedrock lunacy of the modern world.</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>2010</published>
+</book>
+    <book>
+  <id type="integer">22206</id>
+  <isbn>0099437961</isbn>
+  <isbn13>9780099437963</isbn13>
+  <text_reviews_count type="integer">1275</text_reviews_count>
+  <title>Lullaby</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1327268513m/22206.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1327268513s/22206.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/22206.Lullaby</link>
+  <num_pages>260</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Vintage</publisher>
+  <publication_day>5</publication_day>
+  <publication_year>2003</publication_year>
+  <publication_month>6</publication_month>
+  <average_rating>3.70</average_rating>
+  <ratings_count>51261</ratings_count>
+  <description>Ever heard of a culling song? It’s a lullaby sung in Africa to give a painless death to the old or infirm. The lyrics of a culling song kill, whether spoken or even just thought. You can find one on page 27 of Poems and Rhymes from Around the World, an anthology that is sitting on the shelves of libraries across the country, waiting to be picked up by unsuspecting readers.&lt;br&gt;&lt;br&gt;Reporter Carl Streator discovers the song’s lethal nature while researching Sudden Infant Death Syndrome, and before he knows it, he’s reciting the poem to anyone who bothers him. As the body count rises, Streator glimpses the potential catastrophe if someone truly malicious finds out about the song. The only answer is to find and destroy every copy of the book in the country. Accompanied by a shady real-estate agent, her Wiccan assistant, and the assistant’s truly annoying ecoterrorist boyfriend, Streator begins a desperate cross-country quest to put the culling song to rest.</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>2003</published>
+</book>
+    <book>
+  <id type="integer">22288</id>
+  <isbn>1400032822</isbn>
+  <isbn13>9781400032822</isbn13>
+  <text_reviews_count type="integer">2509</text_reviews_count>
+  <title>Haunted</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320550987m/22288.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320550987s/22288.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/22288.Haunted</link>
+  <num_pages>411</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Anchor</publisher>
+  <publication_day>11</publication_day>
+  <publication_year>2006</publication_year>
+  <publication_month>4</publication_month>
+  <average_rating>3.52</average_rating>
+  <ratings_count>45572</ratings_count>
+  <description>&lt;em&gt;Haunted&lt;/em&gt; is a novel made up of twenty-three horrifying, hilarious, and stomach-churning stories. They’re told by people who have answered an ad for a writer’s retreat and unwittingly joined a “Survivor”-like scenario where the host withholds heat, power, and food. As the storytellers grow more desperate, their tales become more extreme, and they ruthlessly plot to make themselves the hero of the reality show that will surely be made from their plight. This is one of the most disturbing and outrageous books you’ll ever read, one that could only come from the mind of Chuck Palahniuk.</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>2006</published>
+</book>
+    <book>
+  <id type="integer">22284</id>
+  <isbn>1400032814</isbn>
+  <isbn13>9781400032815</isbn13>
+  <text_reviews_count type="integer">1460</text_reviews_count>
+  <title>Diary</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320550983m/22284.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320550983s/22284.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/22284.Diary</link>
+  <num_pages>262</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Anchor</publisher>
+  <publication_day>14</publication_day>
+  <publication_year>2004</publication_year>
+  <publication_month>9</publication_month>
+  <average_rating>3.55</average_rating>
+  <ratings_count>42225</ratings_count>
+  <description>Misty Wilmot has had it. Once a promising young artist, she’s now stuck on an island ruined by tourism, drinking too much and working as a waitress in a hotel. Her husband, a contractor, is in a coma after a suicide attempt, but that doesn’t stop his clients from threatening Misty with lawsuits over a series of vile messages they’ve found on the walls of houses he remodeled.&lt;br&gt;&lt;br&gt;Suddenly, though, Misty finds her artistic talent returning as she begins a period of compulsive painting. Inspired but confused by this burst of creativity, she soon finds herself a pawn in a larger conspiracy that threatens to cost hundreds of lives. What unfolds is a dark, hilarious story from America’s most inventive nihilist, and Palahniuk’s most impressive work to date.</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>2004</published>
+</book>
+    <book>
+  <id type="integer">22285</id>
+  <isbn>0385517874</isbn>
+  <isbn13>9780385517874</isbn13>
+  <text_reviews_count type="integer">1874</text_reviews_count>
+  <title>Rant</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320410097m/22285.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320410097s/22285.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/22285.Rant</link>
+  <num_pages>320</num_pages>
+  <format>Hardcover</format>
+  <edition_information/>
+  <publisher>Doubleday</publisher>
+  <publication_day>1</publication_day>
+  <publication_year>2007</publication_year>
+  <publication_month>5</publication_month>
+  <average_rating>3.78</average_rating>
+  <ratings_count>34460</ratings_count>
+  <description>&lt;strong&gt;“Like most people I didn’t meet Rant Casey until after he was dead. That’s how it works for most celebrities: After they croak, their circle of friends just explodes.…”&lt;br&gt;&lt;/strong&gt;&lt;br&gt;&lt;br&gt;&lt;em&gt;Rant&lt;/em&gt; is the mind-bending new novel from Chuck Palahniuk, the literary provocateur responsible for such books as the generation-defining classic &lt;em&gt;Fight Club&lt;/em&gt; and the pedal-to-the-metal horrorfest &lt;em&gt;Haunted&lt;/em&gt;. It takes the form of an oral history of one Buster “Rant” Casey, who may or may not be the most efficient serial killer of our time.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;“What ‘Typhoid Mary’ Mallon was to typhoid, what Gaetan Dugas was to AIDS, and Liu Jian-lun was to SARS, Buster Casey would become for rabies.”&lt;br&gt;&lt;br&gt;&lt;/strong&gt;&lt;br&gt;A high school rebel who always wins (and a childhood murderer?), Rant Casey escapes from his small hometown of Middleton for the big city. He becomes the leader of an urban demolition derby called Party Crashing. On appointed nights participants recognize one another by such designated car markings as “Just Married” toothpaste graffiti and then stalk and crash into each other. Rant Casey will die a spectacular highway death, after which his friends gather testimony needed to build an oral history of his short, violent life. Their collected anecdotes explore the possibility that his saliva caused a silent urban plague of rabies and that he found a way to escape the prison house of linear time.…&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;strong&gt;“The future you have, tomorrow, won’t be the same future you had, yesterday.”&lt;br&gt;—Rant Casey&lt;br&gt;&lt;/strong&gt;&lt;br&gt;&lt;br&gt;Expect hilarity, horror, and blazing insight into the desperate and surreal contemporary human condition as only Chuck Palahniuk can deliver it. He's the postmillennial Jonathan Swift, the visionary to watch to learn what's —&lt;em&gt;uh-oh&lt;/em&gt;—coming next.</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>2007</published>
+</book>
+    <book>
+  <id type="integer">1840511</id>
+  <isbn>0385517882</isbn>
+  <isbn13>9780385517881</isbn13>
+  <text_reviews_count type="integer">1744</text_reviews_count>
+  <title>Snuff</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320410088m/1840511.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320410088s/1840511.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/1840511.Snuff</link>
+  <num_pages>208</num_pages>
+  <format>Hardcover</format>
+  <edition_information/>
+  <publisher>Doubleday</publisher>
+  <publication_day>20</publication_day>
+  <publication_year>2008</publication_year>
+  <publication_month>5</publication_month>
+  <average_rating>3.13</average_rating>
+  <ratings_count>29475</ratings_count>
+  <description>&lt;strong&gt;From the master of literary mayhem and provocation, a full-frontal Triple X novel that goes where no American work of fiction has gone before&lt;br&gt;&lt;/strong&gt;&lt;br&gt;Cassie Wright, porn priestess, intends to cap her legendary career by breaking the world record for serial fornication. On camera. With six hundred men. &lt;em&gt;Snuff&lt;/em&gt; unfolds from the perspectives of Mr. 72, Mr. 137, and Mr. 600, who await their turn on camera in a&lt;em&gt; very crowded&lt;/em&gt; green room. This wild, lethally funny, and thoroughly researched novel brings the huge yet underacknowledged presence of pornography in contemporary life into the realm of literary fiction at last. Who else but Chuck Palahniuk would dare do such a thing? Who else could do it so well, so unflinchingly, and with such an incendiary (you might say) climax?</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>2008</published>
+</book>
+    <book>
+  <id type="integer">3717</id>
+  <isbn>0385722222</isbn>
+  <isbn13>9780385722223</isbn13>
+  <text_reviews_count type="integer">497</text_reviews_count>
+  <title>Stranger Than Fiction</title>
+  <image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320397032m/3717.jpg</image_url>
+  <small_image_url>https://d202m5krfqbpi5.cloudfront.net/books/1320397032s/3717.jpg</small_image_url>
+  <link>https://www.goodreads.com/book/show/3717.Stranger_Than_Fiction</link>
+  <num_pages>233</num_pages>
+  <format>Paperback</format>
+  <edition_information/>
+  <publisher>Anchor</publisher>
+  <publication_day>10</publication_day>
+  <publication_year>2005</publication_year>
+  <publication_month>5</publication_month>
+  <average_rating>3.54</average_rating>
+  <ratings_count>15882</ratings_count>
+  <description>Chuck Palahniuk’s world has always been, well, different from yours and mine. In his first collection of nonfiction, Chuck Palahniuk brings us into this world, and gives us a glimpse of what inspires his fiction. At the Rock Creek Lodge Testicle Festival in Missoula, Montana, average people perform public sex acts on an outdoor stage. In a mansion once occupied by The Rolling Stones, Marilyn Manson reads his own Tarot cards and talks sweetly to his beautiful actress girlfriend. Across the country, men build their own full-size castles and rocketships that will send them into space. Palahniuk himself experiments with steroids, works on an assembly line by day and as a hospice volunteer by night, and experiences the brutal murder of his father by a white supremacist. With this new direction, Chuck Palahniuk has proven he can do anything.</description>
+<authors>
+  <author>
+    <id>2546</id>
+    <name>Chuck Palahniuk</name>
+    <image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p5/2546.jpg]]></image_url>
+    <small_image_url><![CDATA[https://d202m5krfqbpi5.cloudfront.net/authors/1264506988p2/2546.jpg]]></small_image_url>
+    <link><![CDATA[https://www.goodreads.com/author/show/2546.Chuck_Palahniuk]]></link>
+    <average_rating>3.80</average_rating>
+    <ratings_count>707153</ratings_count>
+    <text_reviews_count>31745</text_reviews_count>
+  </author>
+</authors>
+  <published>2005</published>
+</book>
+  </books>
+</author>
+
 </GoodreadsResponse>
