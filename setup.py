@@ -14,10 +14,10 @@ assert version
 setup(
     name='goodreads',
     version=version,
-    description='A snazzy wrapper library for the Goodreads API',
+    description='Python wrapper to communicate with Goodreads API.',
     author='Brian Bridges',
     author_email='brian.brdgs@gmail.com',
-    url='https://github.com/GrumpyRainbow/goodreads-python',
+    url='https://github.com/GrumpyRainbow/goodreads-py',
     packages=['goodreads'],
     tests_require=[
         'nose>=1.1.2',
