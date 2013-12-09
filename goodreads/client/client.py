@@ -1,5 +1,7 @@
 import datetime
 
+import urllib
+
 from author import Author
 from book import Book
 from request import GoodreadsRequest, GoodreadsRequestError
@@ -29,9 +31,9 @@ class Client:
         response = goodreads_request.request()
         return Author(response['author'])
 
-    def author_by_name(self, **query_dict):
-        """ Get information about an author by name."""
-        goodreads_request = GoodreadsRequest("api/author_url/", query_dict, self)
+    def get_author_id(self, name):
+        """ Get the id of an author given the name."""
+        name = urllib.quote_plus(name)
+        goodreads_request = GoodreadsRequest("api/author_url/"+name+'?', {}, self)
         response = goodreads_request.request()
-        author_id = response['author']['@id']
-        return self.author_by_id(id=author_id)
+        return response['author']['@id']

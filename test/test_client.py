@@ -45,3 +45,43 @@ def test_book_title():
     for author in book.authors:
         eq_('2546', author.id)
         eq_('Chuck Palahniuk', author.name)
+
+@httpretty.activate
+def test_author_by_id():
+    """Test that verifies information about an author is done properly."""
+    client = goodreads.Client(client_id="123abc")
+
+    base_url = "https://www.goodreads.com/"
+    api_call = "author/show.xml?"
+    query_dict = { 'id' : '2546' }
+
+    url = base_url + api_call + urllib.urlencode(query_dict)
+
+    sample_response = open('test/fixtures/author_by_id_response.xml')
+    body = sample_response.read()
+
+    httpretty.register_uri(httpretty.GET, url, body=body, status=200)
+
+    author = client.author_by_id(id='2546')
+
+    eq_('2546', author.id)
+    eq_('Chuck Palahniuk', author.name)
+
+@httpretty.activate
+def test_get_author_id():
+    """Test that verifies that an author's id is properly returned."""
+    client = goodreads.Client(client_id="123abc")
+
+    base_url = "https://www.goodreads.com/"
+    api_call = "api/author_url/Chuck+Palahniuk?key=123abc"
+
+    url = base_url + api_call
+
+    sample_response = open('test/fixtures/get_author_id_response.xml')
+    body = sample_response.read()
+
+    httpretty.register_uri(httpretty.GET, url, body=body, status=200)
+
+    author_id = client.get_author_id('Chuck Palahniuk')
+
+    eq_('2546', author_id)

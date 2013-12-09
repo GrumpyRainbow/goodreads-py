@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+    <key><![CDATA[ 123abc ]]></key>
+    <method><![CDATA[ api_author_link ]]></method>
+  </Request>
+  <author id="2546">
+    <name><![CDATA[ Chuck Palahniuk ]]></name>
+    <link>
+      https://www.goodreads.com/author/show/2546.Chuck_Palahniuk?utm_medium=api=author_link
+    </link>
+  </author>
+</GoodreadsResponse>
