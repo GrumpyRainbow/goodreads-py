@@ -68,8 +68,8 @@ def test_author_by_id():
     eq_('Chuck Palahniuk', author.name)
 
     expected_books = ['Fight Club', 'Choke', 'Invisible Monsters',
-                      'Survivor', 'Lullaby', 'Haunted', 'Diary',
-                      'Rant', 'Snuff', 'Stranger Than Fiction']
+                     'Survivor', 'Lullaby', 'Haunted', 'Diary', 'Rant',
+                     'Snuff', 'Damned (Damned #1)']
 
     eq_(expected_books, [book.title for book in author.books])
 

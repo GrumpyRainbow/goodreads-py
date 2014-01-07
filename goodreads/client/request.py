@@ -22,6 +22,10 @@ class GoodreadsRequest:
         h = httplib2.Http('.cache')
         url_extension = self.path + urllib.urlencode(self.query_dict)
         response, content  = h.request(self.host + url_extension, "GET")
+        # Check success
+        if response['status'] != '200':
+            raise GoodreadsRequestError(response['status'], url_extension)
+            return
         data_dict = xmltodict.parse(content)
         if data_dict.has_key('error'):
             raise GoodreadsRequestError(data_dict['error'], url_extension)

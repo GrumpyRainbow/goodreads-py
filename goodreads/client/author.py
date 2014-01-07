@@ -6,6 +6,6 @@ class Author:
             if key == 'books':
                 book_list = [book.Book(book_dict) for book_dict in
                     author_dict[key]['book']]
-                self.__class__.__dict__[key] = book_list
+                self.__dict__[key] = book_list
                 continue
-            self.__class__.__dict__[key] = val
+            self.__dict__[key] = val
