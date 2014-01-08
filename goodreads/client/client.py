@@ -20,6 +20,11 @@ class Client:
         self.client_secret = kwargs.get('client_secret')
         self.query_dict = { 'key' : self.client_id }
 
+    def authenticate(self, access_token=None, access_token_secret=None):
+        """ """
+
+
+
     def book_title(self, **query_dict):
         """
         Get information about a book.
@@ -50,3 +55,6 @@ class Client:
         goodreads_request = GoodreadsRequest("book/isbn_to_id/"+isbn+'?', {}, self)
         response = goodreads_request.request(return_raw=True)
         return response
+
+    def get_friends(self):
+        pass
