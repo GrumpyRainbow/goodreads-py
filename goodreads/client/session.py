@@ -10,7 +10,7 @@ class GoodreadsSession:
         self.access_token_secret = access_token_secret
 
 
-    def oath_initialize(self):
+    def oath_start(self):
         """ Start oauth, get tokens return authorization url"""
         # Create auth service
         goodreads_service = OAuth1Service(
@@ -24,24 +24,24 @@ class GoodreadsSession:
             )
 
         # Get tokens and authorization link
-        request_token, request_token_secret = goodreads_service.get_request_token(
+        self.request_token, self.request_token_secret = goodreads_service.get_request_token(
                                         header_auth=True)
-        authorize_url = goodreads_service.get_authorize_url(request_token)
+        authorize_url = goodreads_service.get_authorize_url(self.request_token)
         print 'To authorize access visit: ' + authorize_url
 
-        # Store service for continuation
+        # Store service for finishing
         self.goodreads_service = goodreads_service
-        
+
         return authorize_url
 
-    def oath_complete(self):
-        """ Finish creating session after user authorized access """
-        self.session = goodreads_service.get_auth_session(request_token,
-                                                          request_token_secret)
+    def oauth_finish(self):
+        """ Finish creating session after user authorized access.
+            save access tokens as instance members. """
+        self.session = self.goodreads_service.get_auth_session(self.request_token,
+                                                          self.request_token_secret)
         # TODO: Check session valid
-
-        self.acceess_token = session.access_token
-        self.access_token_secret = session.access_token_secret
+        self.access_token = self.session.access_token
+        self.access_token_secret = self.session.access_token_secret
 
     def oath_resume(self):
         """ Create a session when access tokens are already available """
@@ -50,7 +50,7 @@ class GoodreadsSession:
                         consumer_secret = self.client_secret,
                         access_token = self.acceess_token,
                         access_token_secret = self.access_token_secret,
-                    )   
+                    )
 
     def post(self, url, data=None):
         """  """
