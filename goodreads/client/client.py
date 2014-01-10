@@ -28,7 +28,7 @@ class Client:
                                        access_token, access_token_secret)
 
         if access_token and access_token_secret:
-            session.oath_resume()
+            self.session.oath_resume()
         else: # Access not yet granted, allow via browser
             url = self.session.oath_start()
             webbrowser.open(url)
@@ -67,5 +67,33 @@ class Client:
         response = goodreads_request.request(return_raw=True)
         return response
 
-    def get_friends(self):
-        pass
+    def get_friends(self, user_id):
+        """ Get all pages of user's friends list """
+        if not self.session:
+            raise Exception("No authenticated session.")
+
+        friends = []
+        page = 1
+        while True:
+            data_dict = self.session.get('friend/user/'+user_id+'?',
+                                        {'format':'xml', 'page':str(page)})
+            data_dict = data_dict['friends']
+            # Check to see if  there is user (friend) data
+            if len(data_dict) == 3:
+                break
+            else:
+                page += 1
+            # Add page's list to total
+            friends.extend([(user['id'], user['name']) for user in data_dict['user']])
+        return friends
+
+    def get_auth_user(self):
+        """ Get the OAuthenticated user id and name """
+        if self.session:
+            raise Exception("No authenticated session.")
+            
+        data_dict = self.session.get('api/auth_user?',{'format':'xml'})
+        user_id = data_dict['user']['@id']
+        name = data_dict['user']['name']
+        return user_id, name
+

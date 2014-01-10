@@ -1,4 +1,5 @@
 from rauth.service import OAuth1Service, OAuth1Session
+import xmltodict
 
 class GoodreadsSession:
     """ Handles OAuth sessions """
@@ -48,20 +49,24 @@ class GoodreadsSession:
         self.session = OAuth1Session(
                         consumer_key = self.client_key,
                         consumer_secret = self.client_secret,
-                        access_token = self.acceess_token,
+                        access_token = self.access_token,
                         access_token_secret = self.access_token_secret,
                     )
 
-    def post(self, url, data=None):
+    def post(self, url, data={}):
         """  """
         response = self.session.post('http://www.goodreads.com/'+url, data)
+        if response.status_code == 201:
+            data_dict = xmltodict.parse(response.content)
+            return data_dict['GoodreadsResponse']
+        else:
+            raise Exception('Cannot create resource: %s' % response.status_code)
 
-        #TODO: Handle response
-
-
-    def get(self, url, data=None):
+    def get(self, url, data={}):
         """  """
         response = self.session.post('http://www.goodreads.com/'+url, data)
-
-        #TODO: Handle response
-
+        if response.status_code == 200:
+            data_dict = xmltodict.parse(response.content)
+            return data_dict['GoodreadsResponse']
+        else:
+            raise Exception('Unable to GET: %s' % response.status_code)
