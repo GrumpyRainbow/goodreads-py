@@ -68,8 +68,8 @@ def test_author_by_id():
     eq_('Chuck Palahniuk', author.name)
 
     expected_books = ['Fight Club', 'Choke', 'Invisible Monsters',
-                      'Survivor', 'Lullaby', 'Haunted', 'Diary',
-                      'Rant', 'Snuff', 'Stranger Than Fiction']
+                     'Survivor', 'Lullaby', 'Haunted', 'Diary', 'Rant',
+                     'Snuff', 'Stranger Than Fiction']
 
     eq_(expected_books, [book.title for book in author.books])
 
@@ -91,3 +91,23 @@ def test_get_author_id():
     author_id = client.get_author_id('Chuck Palahniuk')
 
     eq_('2546', author_id)
+
+@httpretty.activate
+def test_get_book_id():
+    """Test that verifies a book's ID from ISBN"""
+    client = goodreads.Client(client_id="123abc")
+
+    base_url = "https://www.goodreads.com/"
+    api_call = "book/isbn_to_id/0393327345?key=123abc"
+    url = base_url + api_call
+
+    sample_response = open('test/fixtures/get_book_id_response.xml')
+    body = sample_response.read()
+
+    httpretty.register_uri(httpretty.GET, url, body=body, status=200)
+
+    book_id = client.get_book_id('0393327345')
+
+    eq_('5759', book_id)
+
+
