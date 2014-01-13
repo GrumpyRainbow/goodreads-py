@@ -89,10 +89,10 @@ class Client:
 
     def get_auth_user(self):
         """ Get the OAuthenticated user id and name """
-        if self.session:
+        if not self.session:
             raise Exception("No authenticated session.")
             
-        data_dict = self.session.get('api/auth_user?',{'format':'xml'})
+        data_dict = self.session.get('api/auth_user', {'format':'xml'})
         user_id = data_dict['user']['@id']
         name = data_dict['user']['name']
         return user_id, name

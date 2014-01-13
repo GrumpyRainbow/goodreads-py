@@ -62,9 +62,10 @@ class GoodreadsSession:
         else:
             raise Exception('Cannot create resource: %s' % response.status_code)
 
+
     def get(self, url, data={}):
         """  """
-        response = self.session.post('http://www.goodreads.com/'+url, data)
+        response = self.session.get('https://www.goodreads.com/'+url, params=data)
         if response.status_code == 200:
             data_dict = xmltodict.parse(response.content)
             return data_dict['GoodreadsResponse']

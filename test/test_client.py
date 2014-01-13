@@ -1,8 +1,11 @@
+# Local
 import goodreads
+from mock_session import MockSession
+
+# Third Party
 import datetime
 import httpretty
 import urllib
-
 from nose.tools import eq_, raises
 
 def test_client_instance_is_created():
@@ -109,5 +112,28 @@ def test_get_book_id():
     book_id = client.get_book_id('0393327345')
 
     eq_('5759', book_id)
+
+
+@httpretty.activate
+def test_get_auth_user_id():
+    """Test that verifies a book's ID from ISBN"""
+    client = goodreads.Client(client_id="123abc")
+    client.session = goodreads.GoodreadsSession("123abc", "456def",
+                                                "789ghi", "101112jkl")
+    client.session.session = MockSession(client)
+
+    base_url = "https://www.goodreads.com/"
+    api_call = "api/auth_user"
+    url = base_url + api_call
+
+    sample_response = open('test/fixtures/get_auth_user_response.xml')
+    body = sample_response.read()
+
+    httpretty.register_uri(httpretty.GET, url, body=body, status=200)
+
+    user_id, user_name = client.get_auth_user()
+
+    eq_('1374963', user_id)
+    eq_('Zachariah Kendall', user_name)
 
 
