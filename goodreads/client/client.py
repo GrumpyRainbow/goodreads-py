@@ -1,7 +1,11 @@
+
+# Global imports
 import datetime
 import urllib
 import webbrowser
+from sys import maxint as MAX_INT
 
+# Local imports
 from author import Author
 from book import Book
 from request import GoodreadsRequest, GoodreadsRequestError
@@ -67,32 +71,38 @@ class Client:
         response = goodreads_request.request(return_raw=True)
         return response
 
-    def get_friends(self, user_id):
-        """ Get all pages of user's friends list """
+    def get_friends(self, user_id, num=MAX_INT):
+        """ Get pages of user's friends list. (30 per page)
+        Returns: ((id, name),) """
         if not self.session:
             raise Exception("No authenticated session.")
 
+        # Iterate through pages
         friends = []
-        page = 1
-        while True:
+        page, end, total = 1, 0, 1
+        while end < num and end < total:
             data_dict = self.session.get('friend/user/'+user_id+'?',
                                         {'format':'xml', 'page':str(page)})
             data_dict = data_dict['friends']
-            # Check to see if  there is user (friend) data
+            # Check to see if  there is 'user' (friend) data
             if len(data_dict) == 3:
-                break
-            else:
+                break # No friends :(
+            else: # Update progress
+                end = int(data_dict['@end'])
+                total = int(data_dict['@total'])
                 page += 1
             # Add page's list to total
             friends.extend([(user['id'], user['name']) for user in data_dict['user']])
+        # Return compiled list of friends
         return friends
 
     def get_auth_user(self):
         """ Get the OAuthenticated user id and name """
         if not self.session:
             raise Exception("No authenticated session.")
-            
+
         data_dict = self.session.get('api/auth_user', {'format':'xml'})
+        # Parse response
         user_id = data_dict['user']['@id']
         name = data_dict['user']['name']
         return user_id, name

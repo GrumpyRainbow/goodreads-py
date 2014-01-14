@@ -3,7 +3,8 @@ import xmltodict
 
 class GoodreadsSession:
     """ Handles OAuth sessions """
-    def __init__(self, client_key, client_secret, access_token=None, access_token_secret=None):
+    def __init__(self, client_key, client_secret, \
+                 access_token=None, access_token_secret=None):
         self.session = None
         self.client_key = client_key
         self.client_secret = client_secret
@@ -25,8 +26,9 @@ class GoodreadsSession:
             )
 
         # Get tokens and authorization link
-        self.request_token, self.request_token_secret = goodreads_service.get_request_token(
-                                        header_auth=True)
+        self.request_token, self.request_token_secret = \
+            goodreads_service.get_request_token(header_auth=True)
+
         authorize_url = goodreads_service.get_authorize_url(self.request_token)
         print 'To authorize access visit: ' + authorize_url
 
@@ -55,7 +57,7 @@ class GoodreadsSession:
 
     def post(self, url, data={}):
         """  """
-        response = self.session.post('http://www.goodreads.com/'+url, data)
+        response = self.session.post('http://www.goodreads.com/'+url, params=data)
         if response.status_code == 201:
             data_dict = xmltodict.parse(response.content)
             return data_dict['GoodreadsResponse']

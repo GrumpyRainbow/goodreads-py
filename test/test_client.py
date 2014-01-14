@@ -8,6 +8,22 @@ import httpretty
 import urllib
 from nose.tools import eq_, raises
 
+
+BASE_URL = "https://www.goodreads.com/"
+
+
+# Helper Methods
+
+def get_client(client_id="123abc"):
+    return goodreads.Client(client_id=client_id)
+
+def build_url(api_call, query_dict={}):
+    return BASE_URL + api_call + urllib.urlencode(query_dict)
+
+
+
+# Testing methods
+
 def test_client_instance_is_created():
     """Test to see if an instance of Client is created from goodreads.Client"""
     client = goodreads.Client()
@@ -27,14 +43,14 @@ def test_host_is_set():
 @httpretty.activate
 def test_book_title():
     """Test that verifies information about a book is done properly."""
-    client = goodreads.Client(client_id="123abc")
-
-    base_url = "https://www.goodreads.com/"
+    client = get_client()
+    
+    # Prepare URL that will be requested
     api_call = "book/title.xml?"
     query_dict = { 'author' : 'Chuck Palahniuk', 'title' : 'Fight Club' }
-
-    url = base_url + api_call + urllib.urlencode(query_dict)
-
+    url = build_url(api_call, query_dict)
+    
+    # Fetch sample response
     sample_response = open('test/fixtures/book_title_response.xml')
     body = sample_response.read()
 
@@ -52,14 +68,14 @@ def test_book_title():
 @httpretty.activate
 def test_author_by_id():
     """Test that verifies information about an author is done properly."""
-    client = goodreads.Client(client_id="123abc")
-
-    base_url = "https://www.goodreads.com/"
+    client = get_client()
+    
+    # Prepare URL that will be requested
     api_call = "author/show.xml?"
     query_dict = { 'id' : '2546' }
-
-    url = base_url + api_call + urllib.urlencode(query_dict)
-
+    url = build_url(api_call, query_dict)
+    
+    # Fetch sample response
     sample_response = open('test/fixtures/author_by_id_response.xml')
     body = sample_response.read()
 
@@ -79,13 +95,13 @@ def test_author_by_id():
 @httpretty.activate
 def test_get_author_id():
     """Test that verifies that an author's id is properly returned."""
-    client = goodreads.Client(client_id="123abc")
-
-    base_url = "https://www.goodreads.com/"
+    client = get_client()
+    
+    # Prepare URL that will be requested
     api_call = "api/author_url/Chuck+Palahniuk?key=123abc"
-
-    url = base_url + api_call
-
+    url = BASE_URL + api_call
+        
+    # Fetch sample response
     sample_response = open('test/fixtures/get_author_id_response.xml')
     body = sample_response.read()
 
@@ -98,12 +114,13 @@ def test_get_author_id():
 @httpretty.activate
 def test_get_book_id():
     """Test that verifies a book's ID from ISBN"""
-    client = goodreads.Client(client_id="123abc")
-
-    base_url = "https://www.goodreads.com/"
+    client = get_client()
+    
+    # Prepare URL that will be requested
     api_call = "book/isbn_to_id/0393327345?key=123abc"
-    url = base_url + api_call
-
+    url = BASE_URL + api_call
+    
+    # Fetch sample response
     sample_response = open('test/fixtures/get_book_id_response.xml')
     body = sample_response.read()
 
@@ -116,16 +133,17 @@ def test_get_book_id():
 
 @httpretty.activate
 def test_get_auth_user_id():
-    """Test that verifies a book's ID from ISBN"""
-    client = goodreads.Client(client_id="123abc")
+    """Test that verifies a retrieved authenticated user's ID (and name)"""
+    client = get_client()
     client.session = goodreads.GoodreadsSession("123abc", "456def",
                                                 "789ghi", "101112jkl")
-    client.session.session = MockSession(client)
+    # Assign fake session
+    client.session.session = MockSession()
 
-    base_url = "https://www.goodreads.com/"
-    api_call = "api/auth_user"
-    url = base_url + api_call
-
+    # Prepare URL that will be requested
+    url = build_url("api/auth_user?format=xml")
+    
+    # Fetch sample response
     sample_response = open('test/fixtures/get_auth_user_response.xml')
     body = sample_response.read()
 
@@ -137,3 +155,25 @@ def test_get_auth_user_id():
     eq_('Zachariah Kendall', user_name)
 
 
+@httpretty.activate
+def test_get_friends():
+    """Test that verifies getting user's friends list"""
+    client = get_client()
+    client.session = goodreads.GoodreadsSession("123abc", "456def",
+                                                "789ghi", "101112jkl")
+    # Assign fake session
+    client.session.session = MockSession()
+
+    # Prepare URL that will be requested
+    url = build_url("friend/user/1374963?", {'page':'1', 'format':'xml', })
+    print "test url:", url
+    # Fetch sample response
+    sample_response = open('test/fixtures/get_friends_response.xml')
+    body = sample_response.read()
+
+    httpretty.register_uri(httpretty.GET, url, body=body, status=200)
+
+    friends = client.get_friends('1374963', num=30)
+
+    eq_('12315703', friends[0][0])
+    eq_('Kelli', friends[0][1])
