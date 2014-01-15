@@ -9,7 +9,7 @@ from sys import maxint as MAX_INT
 from author import Author
 from book import Book
 from request import GoodreadsRequest, GoodreadsRequestError
-from session import GoodreadsSession
+from session import GoodreadsSession, GoodreadsSessionError
 
 class Client:
     """ A client for interacting with Goodreads resources."""
@@ -27,7 +27,7 @@ class Client:
         self.query_dict = { 'key' : self.client_id }
 
     def authenticate(self, access_token=None, access_token_secret=None):
-        """ Go through OAuth process """
+        """ Go through Open Auththenication process. """
         self.session = GoodreadsSession(self.client_id, self.client_secret,
                                        access_token, access_token_secret)
 
@@ -39,6 +39,14 @@ class Client:
             while raw_input('Have you authorized me? (y/n) ') != 'y':
                 pass
             self.session.oauth_finish()
+
+    def get_access_tokens():
+        """ Return access tokens for storage, so that sessions can be 
+        resumed easily.
+        Returns: (access_token, access_token_secret) """
+        if not self.session:
+            raise GoodreadsSessionError("No authenticated session.")
+        return self.session.access_token, self.session.access_token_secret
 
     def book_title(self, **query_dict):
         """
@@ -75,7 +83,7 @@ class Client:
         """ Get pages of user's friends list. (30 per page)
         Returns: ((id, name),) """
         if not self.session:
-            raise Exception("No authenticated session.")
+            raise GoodreadsSessionError("No authenticated session.")
 
         # Iterate through pages
         friends = []
@@ -99,7 +107,7 @@ class Client:
     def get_auth_user(self):
         """ Get the OAuthenticated user id and name """
         if not self.session:
-            raise Exception("No authenticated session.")
+            raise GoodreadsSessionError("No authenticated session.")
 
         data_dict = self.session.get('api/auth_user', {'format':'xml'})
         # Parse response

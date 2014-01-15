@@ -1,6 +1,15 @@
 from rauth.service import OAuth1Service, OAuth1Session
 import xmltodict
 
+class GoodreadsSessionError(Exception):
+    """ Custom request exception """
+    def __init__(self, error_msg):
+        self.error_msg = error_msg
+        self.url = url
+
+    def __str__(self):
+        return self.error_msg + "\n"
+
 class GoodreadsSession:
     """ Handles OAuth sessions """
     def __init__(self, client_key, client_secret, \
