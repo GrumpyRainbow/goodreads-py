@@ -8,6 +8,7 @@ from sys import maxint as MAX_INT
 # Local imports
 from author import Author
 from book import Book
+from comparison import Comparison
 from request import GoodreadsRequest, GoodreadsRequestError
 from session import GoodreadsSession, GoodreadsSessionError
 
@@ -69,13 +70,13 @@ class Client:
     def get_author_id(self, name):
         """ Get the id of an author given the name."""
         name = urllib.quote_plus(name)
-        goodreads_request = GoodreadsRequest("api/author_url/"+name+'?', {}, self)
+        goodreads_request = GoodreadsRequest("api/author_url/"+name, {}, self)
         response = goodreads_request.request()
         return response['author']['@id']
 
     def get_book_id(self, isbn):
         """ Get book id given the isbn. """
-        goodreads_request = GoodreadsRequest("book/isbn_to_id/"+isbn+'?', {}, self)
+        goodreads_request = GoodreadsRequest("book/isbn_to_id/"+isbn, {}, self)
         response = goodreads_request.request(return_raw=True)
         return response
 
@@ -89,7 +90,7 @@ class Client:
         friends = []
         page, end, total = 1, 0, 1
         while end < num and end < total:
-            data_dict = self.session.get('friend/user/'+user_id+'?',
+            data_dict = self.session.get('friend/user/'+user_id,
                                         {'format':'xml', 'page':str(page)})
             data_dict = data_dict['friends']
             # Check to see if  there is 'user' (friend) data
@@ -114,4 +115,11 @@ class Client:
         user_id = data_dict['user']['@id']
         name = data_dict['user']['name']
         return user_id, name
+
+    def compare_books(self, user_id):
+        """ Compare books between the authenticated user and another. """
+        if not self.session:
+            raise GoodreadsSessionError("No authenticated session.")
+        data_dict = self.session.get('user/compare/'+user_id, {'format':'xml'})
+        return Comparison(data_dict['compare'])
 

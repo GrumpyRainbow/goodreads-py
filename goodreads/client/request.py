@@ -19,7 +19,8 @@ class GoodreadsRequest:
         self.query_dict = dict(client_instance.query_dict.items() + additional_query_info.items())
         self.host = client_instance.host
         self.path = path
-        if len(additional_query_info) > 0:
+        # Will there be parameters?
+        if len(self.query_dict) > 0:
             self.path += '?'
 
     def request(self, return_raw=False):

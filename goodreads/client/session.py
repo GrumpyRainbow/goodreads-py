@@ -66,6 +66,9 @@ class GoodreadsSession:
 
     def post(self, url, data={}):
         """  """
+        # Are there parameters?
+        if len(data) > 0:
+            url += '?'
         response = self.session.post('http://www.goodreads.com/'+url, params=data)
         if response.status_code == 201:
             data_dict = xmltodict.parse(response.content)
@@ -76,6 +79,10 @@ class GoodreadsSession:
 
     def get(self, url, data={}):
         """  """
+        # Are there parameters?
+        if len(data) > 0:
+            url += '?'
+            
         response = self.session.get('https://www.goodreads.com/'+url, params=data)
         if response.status_code == 200:
             data_dict = xmltodict.parse(response.content)
