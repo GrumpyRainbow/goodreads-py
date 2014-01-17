@@ -14,12 +14,16 @@ BASE_URL = "https://www.goodreads.com/"
 
 # Helper Methods
 
-def get_client(client_id="123abc"):
-    return goodreads.Client(client_id=client_id)
+def get_client(client_id="123abc", mock_session=False):
+    client = goodreads.Client(client_id=client_id)
+    if mock_session:
+        client.session = goodreads.GoodreadsSession("123abc", "456def",
+                                                    "789ghi", "101112jkl")
+        client.session.session = MockSession()
+    return client
 
 def build_url(api_call, query_dict={}):
     return BASE_URL + api_call + urllib.urlencode(query_dict)
-
 
 
 # Testing methods
@@ -30,19 +34,19 @@ def test_client_instance_is_created():
     assert isinstance(client, goodreads.Client)
 
 def test_kwargs_parsing_valid():
-    """Test that valid kwargs are stored as properties on the client."""
+    """Valid kwargs are stored as properties on the client."""
     client = goodreads.Client(client_id='foo', client_secret='foo')
     eq_('foo', client.client_id)
     eq_('foo', client.client_secret)
 
 def test_host_is_set():
-    """Test that verifies that the host is set properly."""
+    """Verifies that the host is set properly."""
     client = goodreads.Client()
     eq_("https://www.goodreads.com/", client.host)
 
 @httpretty.activate
 def test_book_title():
-    """Test that verifies information about a book is done properly."""
+    """Verifies information about a book is done properly."""
     client = get_client()
     
     # Prepare URL that will be requested
@@ -67,7 +71,7 @@ def test_book_title():
 
 @httpretty.activate
 def test_author_by_id():
-    """Test that verifies information about an author is done properly."""
+    """Verifies information about an author is done properly."""
     client = get_client()
     
     # Prepare URL that will be requested
@@ -94,7 +98,7 @@ def test_author_by_id():
 
 @httpretty.activate
 def test_get_author_id():
-    """Test that verifies that an author's id is properly returned."""
+    """Verifies that an author's id is properly returned."""
     client = get_client()
     
     # Prepare URL that will be requested
@@ -113,7 +117,7 @@ def test_get_author_id():
 
 @httpretty.activate
 def test_get_book_id():
-    """Test that verifies a book's ID from ISBN"""
+    """Verifies a book's ID from ISBN"""
     client = get_client()
     
     # Prepare URL that will be requested
@@ -133,12 +137,8 @@ def test_get_book_id():
 
 @httpretty.activate
 def test_get_auth_user_id():
-    """Test that verifies a retrieved authenticated user's ID (and name)"""
-    client = get_client()
-    client.session = goodreads.GoodreadsSession("123abc", "456def",
-                                                "789ghi", "101112jkl")
-    # Assign fake session
-    client.session.session = MockSession()
+    """Verifies a retrieved authenticated user's ID (and name)"""
+    client = get_client(mock_session=True)
 
     # Prepare URL that will be requested
     url = build_url("api/auth_user?format=xml")
@@ -157,23 +157,53 @@ def test_get_auth_user_id():
 
 @httpretty.activate
 def test_get_friends():
-    """Test that verifies getting user's friends list"""
-    client = get_client()
-    client.session = goodreads.GoodreadsSession("123abc", "456def",
-                                                "789ghi", "101112jkl")
-    # Assign fake session
-    client.session.session = MockSession()
+    """Verifies getting user's friends list"""
+    client = get_client(mock_session=True)
 
     # Prepare URL that will be requested
-    url = build_url("friend/user/1374963?", {'page':'1', 'format':'xml', })
-    print "test url:", url
+    user_id = "1374963"
+    url = build_url("friend/user/"+user_id+"?", {'page':'1', 'format':'xml', })
+
     # Fetch sample response
     sample_response = open('test/fixtures/get_friends_response.xml')
     body = sample_response.read()
 
     httpretty.register_uri(httpretty.GET, url, body=body, status=200)
 
-    friends = client.get_friends('1374963', num=30)
+    friends = client.get_friends(user_id, num=30)
 
     eq_('12315703', friends[0][0])
     eq_('Kelli', friends[0][1])
+
+@httpretty.activate
+def test_compare_books():
+    """Verifies getting book comparison between authenticated and another user"""
+    client = get_client(mock_session=True)
+
+    # Prepare URL that will be requested
+    user_id = "22056220"
+    url = build_url("user/compare/"+user_id+"?", {'format':'xml', })
+
+    # Fetch sample response
+    sample_response = open('test/fixtures/compare_books_response.xml')
+    body = sample_response.read()
+
+    httpretty.register_uri(httpretty.GET, url, body=body, status=200)
+
+    comparison = client.compare_books(user_id)
+
+    eq_('70', comparison.not_in_common)
+    eq_('8.16', comparison.your_library_percent)
+    eq_('31.37', comparison.their_library_percent)
+    eq_('392', comparison.your_total_books_count)
+    eq_('102', comparison.their_total_books_count)
+    eq_('32', comparison.common_count)
+    eq_('The Time Machine', comparison.reviews[10]['title'])
+    eq_('4', comparison.reviews[10]['your_rating'])
+    eq_('3', comparison.reviews[10]['their_rating'])
+
+
+
+
+
+

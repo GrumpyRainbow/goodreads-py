@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+    <key><![CDATA[K6rpj6GfifuFUXMlwcQ]]></key>
+    <method><![CDATA[user_compare]]></method>
+  </Request>
+  <compare>
+    <not_in_common>70</not_in_common>
+    <your_library_percent>8.16</your_library_percent>
+    <their_library_percent>31.37</their_library_percent>
+    <your_total_books_count>392</your_total_books_count>
+    <their_total_books_count>102</their_total_books_count>
+    <common_count>32</common_count>
+    <reviews>
+      <review>
+        <book>
+          <title><![CDATA[The Better Angels of Our Nature: Why Violence Has Declined]]></title>
+          <id>11107244</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/11107244-the-better-angels-of-our-nature]]></url>
+        </book>
+        <your_review>
+          <id>511561245</id>
+          <rating>5</rating>
+          <text><![CDATA[The most valuably informative book I've read. A must read of must reads.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663141673</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Emotional Intelligence: Why It Can Matter More Than IQ]]></title>
+          <id>26329</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/26329.Emotional_Intelligence]]></url>
+        </book>
+        <your_review>
+          <id>185090792</id>
+          <rating>5</rating>
+          <text><![CDATA[This book is excellent. I once listened to a TED Talk where the guy talked about the marshmallow experiment in which it was shown that a person's ability to delay gratification at the age of 4 strongly corresponded to one's success in all areas by the end of teenage years. This book is <em>rife</em> with such scientific studies done by prestigious professionals from a variety of universities including the likes of Harvard, Stanford, etc.<br /><br />Daniel Goleman starts off the book with a rundown of the physiological makeup of the human brain, focusing on what emotions are made of, how they work, and how they can take control of us. Then he launches into what emotional intelligence is, giving a satisfying discussion of each aspect, and sometimes each role (e.g. marriage and work.), including ways in which it is found that people can develop that aspect of EI. Goleman discusses the relevance and <em>need</em> of emotional intelligence in our society, pointing out how much of societies ills would be helped by an increase in emotional education. And somewhere in there, a section that particularly informed and scared me, he discussed the influence parents have on children solely through their emotional engagement.<br /><br />Throughout the book Goleman successfully debunks the idea that IQ and other measurements of cognitive capacity are the end all be all of human "worth" (to put it crassly) or are even significantly relevant to predicting one's success. Goleman puts forth Emotional Intelligence, delineating it's forms and discussing it's uses, as a more accurate measurement of a persons success.<br /><br />This is an excellent book. It has the perfect combination of scholarly support and lay accessibility, accomplished through good writing and ample illustrations. I've seen some people's reviews complain that the book is dense; it really isn't, but if this book is difficult for you then you need to read better books (no offense) so that you can be prepared for books like this.<br /><br />The book isn't perfect, but I consider it a must read for parents and children, for those in a relationship, for bosses, workers and coworkers, for those who's emotions run dry and those who's emotions flood, and for those who care about society and want to learn another's plan for its improvement.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663138576</id>
+          <rating>3</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>Go the Fuck to Sleep</title>
+          <id>11192642</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/11192642-go-the-fuck-to-sleep]]></url>
+        </book>
+        <your_review>
+          <id>464490047</id>
+          <rating>4</rating>
+
+        </your_review>
+        <their_review>
+          <id>663134036</id>
+          <rating>4</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[God is Not Great: How Religion Poisons Everything]]></title>
+          <id>43369</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/43369.God_is_Not_Great]]></url>
+        </book>
+        <your_review>
+          <id>235285728</id>
+          <rating>4</rating>
+          <text><![CDATA[Christopher Hitchens is an expert writer. In fact he is a professional writer and a polemicist who doesn't attempt to mellow his voice—which leads some to dislike him because they are afraid of his ego (this, I think, is a mis-stance for reception that people need to fix in themselves). That is just who he is, and voices like this are valuable to the public arena, whether you agree with them or not. (You're welcome to write that off as my sympathizing with his abrasiveness because I myself am abrasive.)<br /><br />More than a debunking of God (or religion), the primary success of this book is as a masterful painting of the depravity and corruption of man. It's a load of accounts of injustice (of course focusing on those due to religion though also discussing many not).<br /><br />Don't get me wrong, there was much on why the argument from design doesn't work, why inspiration and scriptures are bunk (in all religions), how creationists are fools, etcetera. But to me, having much exposure to this (through listening to probably over a hundred hours of debates and related research on top of that), this was almost background noise.<br /><br />What impressed me was the depth of his historic knowledge and the breadth of his knowledge of the affairs on a global and particular level. This knowledge comes from a life of reading and from (often fascinating) international experiences in journalism. Hitchens is a great intellect and a humanist of real heart. However way he rages, he rages against injustice and in the name of better human well-being. As such, much of what he says <em>could</em> be acknowledged by religious people, without the loss of faith, who I think actually need a good dousing of the history and global affairs discussed in the book as an alternative to the often skewed versions that trickle down to them supporting their own spiritual ego and agenda (For instance, petty twistings to say Einsteins was a theist, to then clamor : “Oh yay, oh yay, he's on our side.”)<br /><br />Now, as I said from the beginning, Hitchens is a polemicist and he clearly chooses his content for rhetorical effect; that is, a lot of negative content, which he lays on thick. However, the accounts he  gives appear faithful.<br /><br />As is the nature of things, I'm sure some religious people who read this will get the soul sucked out of their religion, while others will go along their merry way—each still bettered from the exposure.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663149926</id>
+          <rating>2</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Invisible Man</title>
+          <id>17184</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/17184.The_Invisible_Man]]></url>
+        </book>
+        <your_review>
+          <id>459428531</id>
+          <rating>to-read</rating>
+
+        </your_review>
+        <their_review>
+          <id>663146364</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Origin of Species</title>
+          <id>22463</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/22463.The_Origin_of_Species]]></url>
+        </book>
+        <your_review>
+          <id>255703138</id>
+          <rating>4</rating>
+          <text><![CDATA[I'm pretty familiar with the theory of evolution, so to be honest I did a lot of skimming. But I still really enjoyed the book. There's a lot of fascinating biological information bits discussed about this and that animal, etc.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663142163</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Stiff: The Curious Lives of Human Cadavers]]></title>
+          <id>32145</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/32145.Stiff]]></url>
+        </book>
+        <your_review>
+          <id>374201003</id>
+          <rating>5</rating>
+          <text><![CDATA[A great blend of good journalism, science, and humor. The subject was also perfectly not drawn out nor too skimpy.<br /><br /><br />I also really appreciated the theme of peoples attitudes towards this subject. It really bothers me how people impede science that SAVES LIVES because they have uncomfortable feelings towards the dead, even dead unrelated to themselves. Safety in everything from vehicle to baseball benefits from cadaver experimentation, and we reap the benefits without even knowing it. Everyone definately should be an organ donor, and you should donate your body to science too...]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663149257</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>Thinking, Fast and Slow</title>
+          <id>11468377</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow]]></url>
+        </book>
+        <your_review>
+          <id>359396483</id>
+          <rating>5</rating>
+          <text><![CDATA[This book was really great. Before reading this there was one book, of all the books I've read, that I think everyone should read, <a href="http://www.goodreads.com/book/show/26329.Emotional_Intelligence__Why_It_Can_Matter_More_Than_IQ" title="Emotional Intelligence: Why It Can Matter More Than IQ by Daniel Goleman">Emotional Intelligence: Why It Can Matter More Than IQ</a>, but now I've found the near perfect counterpart.<br /><br />Where EQ tells us of our emotions and how they effect our lives, <em>Thinking, Fast and Slow</em> describes our cognitive processes, how they work and their common biases.<br /><br />Why do I recommend these two books so highly? Quite simply because we <em>are</em> our brains, what more important thing to learn about than our own minds (in ways that relate to everyday life)? People tend to have so many notions about who and what they are that are culturally and idealistically formed. I guess, people live their lives being led by their mind and emotions without any thought of looking in on how their machinery works. And even when people decide to be self-reflective it usually is within an artificial framework of pop-psychology or religion, a framework of words that is re-framed in many different ways, themselves formed by some 'guru's intuition and view of the world, instead of the bare-bones of actuality, as informed by science and critical study, that change when challenged by more compelling evidence, instead of the whims of culture.<br /><br />This is a book about how we think and make decisions and choices. Our minds fall prey to cognitive biases probably on a daily basis. They are so automatic that they are difficult to catch in yourself, but they easier to observe in others. I can only imagine a knowledge of such biases will be constructive to our lives. Don't you care to know how your mind can make an irrational and incorrect decision, that if properly pointed out you would probably disagree with?<br /><br />If there was any one thing that I think people should take away from this, it is the subjectivity and unreliability of their intuition. It bothers the hell out me how much people lay their whole body-weight into a position their intuition just popped out for them, instead of engaging their critical faculties.<br /><br />Just as our society would be greatly helped by a increased knowledge and exercise of emotional intelligence, I believe our society would be improved by an increased ability to differentiate between rational thinking and being led around like a dog by your subjective intuition.<br /><br />This review might read arrogantly like I've got it all figured out, but that's certainly not the case. I think I have a bit of an advantage from my personality, but all these things can be exercised and improved. Furthermore we all are subject to mental faults and biases; though it often makes mistakes, our intuition is indispensable; choosing when to take it's output at face value and when to question it is tricky.<br /><br />ANYWAYS. Great book. Read it.<br />]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663138429</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[The Strange Case of Dr. Jekyll and Mr. Hyde]]></title>
+          <id>51496</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/51496.The_Strange_Case_of_Dr_Jekyll_and_Mr_Hyde]]></url>
+        </book>
+        <your_review>
+          <id>29897378</id>
+          <rating>3</rating>
+          <text><![CDATA[It is good. I liked the beginning a lot. I wonder how much more I would have liked it if I didn't know much of the story like. I took off stars because I didn't care for the the second half of the book was presented. It was choppy: a very short chapter right before a very long chapter. And a bit to much unnecessary elaboration and drawing out that wasn't too appetizing. But good.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663125502</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The God Delusion</title>
+          <id>14743</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/14743.The_God_Delusion]]></url>
+        </book>
+        <your_review>
+          <id>242381342</id>
+          <rating>4</rating>
+          <text><![CDATA[I found this book to be kinda boring compared to Hitchens'. But that's to be expected, since Hitchens is a professional writer and Dawkins is a professional scientist. (Also my judgement may be affected by having just read an apology for Atheism (by Hitchens), so maybe I'm bored of the topic). <br /><br />The book touches on a lot of topics and doesn't feel very cohesive. But he makes some good points.<br /><br />I think his main and original point that Dawkins makes is that God would need to be a very complex being--this to his detriment as far as explain-ability. I've never heard or considered this before. Interesting point.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663142205</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Time Machine</title>
+          <id>2493</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/2493.The_Time_Machine]]></url>
+        </book>
+        <your_review>
+          <id>459426679</id>
+          <rating>4</rating>
+          <text>A nice short classic.</text>
+
+        </your_review>
+        <their_review>
+          <id>663145829</id>
+          <rating>3</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>A Christmas Carol</title>
+          <id>5326</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/5326.A_Christmas_Carol]]></url>
+        </book>
+        <your_review>
+          <id>464131317</id>
+          <rating>4</rating>
+          <text><![CDATA[I don't understand why all my friends gave this book so low ratings. Sure it's a simple story that we all know well. But it's not Dickens fault you've seen movie renditions so much.<br /><br />This is a great little classic.<br /><br /><br />(Also, Tim Curry does a solid reading, as usual)]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663122998</id>
+          <rating>5</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[The Devil in the White City: Murder, Magic, and Madness at the Fair that Changed America]]></title>
+          <id>21996</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/21996.The_Devil_in_the_White_City]]></url>
+        </book>
+        <your_review>
+          <id>391977602</id>
+          <rating>4</rating>
+          <text><![CDATA[This is a really enjoyable book. The history he was able to weave from research is pretty impressive. While it jumps around a bit or is cut off at times, this must be due to Larson trying to remain true to available information and the book can't be faulted for it.<br /><br />It was so cool to learn about the milestone achievements in engineering and invention. From structures and organization at the fair (from the Ferris wheel to labor care and electricity and clean water) to inventions presented in booths (from Wheaties to the zipper), also to hear about other things like Disney's dad and participating members dying on the Titanic and other small coincidences and significant events.<br /><br />Also, the psychopath is so creeepy!]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663148946</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>Fight Club</title>
+          <id>5759</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/5759.Fight_Club]]></url>
+        </book>
+        <your_review>
+          <id>29651702</id>
+          <rating>4</rating>
+
+        </your_review>
+        <their_review>
+          <id>663126418</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>American Gods</title>
+          <id>4407</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/4407.American_Gods]]></url>
+        </book>
+        <your_review>
+          <id>596508561</id>
+          <rating>3</rating>
+          <text><![CDATA[Decent writing for it's genre, "[adult] contemporary fantasy", but I found the pace and story to be really boring.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663157979</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[The Girl Who Kicked the Hornet's Nest]]></title>
+          <id>6892870</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/6892870-the-girl-who-kicked-the-hornet-s-nest]]></url>
+        </book>
+        <your_review>
+          <id>427590236</id>
+          <rating>4</rating>
+          <text><![CDATA[One of the best pop-fiction series I've read.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>666137208</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>A Clockwork Orange</title>
+          <id>227463</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/227463.A_Clockwork_Orange]]></url>
+        </book>
+        <your_review>
+          <id>471696345</id>
+          <rating>to-read</rating>
+
+        </your_review>
+        <their_review>
+          <id>663125990</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Girl Who Played with Fire</title>
+          <id>5060378</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/5060378-the-girl-who-played-with-fire]]></url>
+        </book>
+        <your_review>
+          <id>407586321</id>
+          <rating>4</rating>
+          <text><![CDATA[Three stars for a good action detective flick (I didn't' find it engaging enough) and an extra star for great gender politics--and for the phrase, "men who hate women."]]></text>
+
+        </your_review>
+        <their_review>
+          <id>666137178</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Little Prince</title>
+          <id>157993</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/157993.The_Little_Prince]]></url>
+        </book>
+        <your_review>
+          <id>29652745</id>
+          <rating>5</rating>
+          <text><![CDATA[Beautiful.<br />(Don't really remember when I read this, years ago though)]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663125419</id>
+          <rating>3</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Little Prince</title>
+          <id>157993</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/157993.The_Little_Prince]]></url>
+        </book>
+        <your_review>
+          <id>104783369</id>
+          <rating>5</rating>
+
+        </your_review>
+        <their_review>
+          <id>663125419</id>
+          <rating>3</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Picture of Dorian Gray</title>
+          <id>5297</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray]]></url>
+        </book>
+        <your_review>
+          <id>69326465</id>
+          <rating>4</rating>
+          <text><![CDATA[An excellent book. I guess the only think that has kept me from enjoying it more is that I already knew what was going to happen, so that took away some of the splendor, and perhaps it's an old classic, so the writing is not quite what we're used to (not that that means it's bad).<br /><br />Dorian talks about wanted to be better, 'says that he is going to do better. But later he realizes that the good he though he did was still out of an evil heart, out of pride. He also talks about atonement.<br /><br />All the story really needs is a reference to Jesus, because he is the only one who can make atonement and only through him can we change; it is true that we are only dead in our sins apart from God's grace! <br /><br />"Can the Ethiopian change his skin<br />or the leopard his spots?<br />Then also you can do good<br />who are accustomed to do evil."]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663122289</id>
+          <rating>4</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>Fahrenheit 451</title>
+          <id>4381</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/4381.Fahrenheit_451]]></url>
+        </book>
+        <your_review>
+          <id>29651555</id>
+          <rating>5</rating>
+
+        </your_review>
+        <their_review>
+          <id>674740400</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[The Lion, the Witch, and the Wardrobe]]></title>
+          <id>100915</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/100915.The_Lion_the_Witch_and_the_Wardrobe]]></url>
+        </book>
+        <your_review>
+          <id>238710359</id>
+          <rating>4</rating>
+          <text><![CDATA[Looks like 4 stars is the fad.]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663125552</id>
+          <rating>3</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Fellowship of the Ring</title>
+          <id>34</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring]]></url>
+        </book>
+        <your_review>
+          <id>28612157</id>
+          <rating>4</rating>
+
+        </your_review>
+        <their_review>
+          <id>663125175</id>
+          <rating>2</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Harry Potter and the Order of the Phoenix]]></title>
+          <id>2</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/2.Harry_Potter_and_the_Order_of_the_Phoenix]]></url>
+        </book>
+        <your_review>
+          <id>28612112</id>
+          <rating>5</rating>
+          <text>[Read in 2005]</text>
+
+        </your_review>
+        <their_review>
+          <id>663159323</id>
+          <rating>currently-reading</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Harry Potter and the Half-Blood Prince]]></title>
+          <id>1</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/1.Harry_Potter_and_the_Half_Blood_Prince]]></url>
+        </book>
+        <your_review>
+          <id>28612109</id>
+          <rating>5</rating>
+          <text><![CDATA[Now I'm sad.<br /><br />[Read: in July 06, Jan 13]]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663159288</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Harry Potter and the Chamber of Secrets]]></title>
+          <id>15881</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/15881.Harry_Potter_and_the_Chamber_of_Secrets]]></url>
+        </book>
+        <your_review>
+          <id>192738841</id>
+          <rating>4</rating>
+          <text><![CDATA[[Read in 2005, then again sometime, then again in Dec, 2013]]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663159322</id>
+          <rating>5</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Harry Potter and the Goblet of Fire]]></title>
+          <id>6</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/6.Harry_Potter_and_the_Goblet_of_Fire]]></url>
+        </book>
+        <your_review>
+          <id>192739286</id>
+          <rating>4</rating>
+          <text><![CDATA[At the end of this book, the shit finally hits the fan.<br />-<br />It's interesting how in each book there are totally new things about the wizarding world. I wonder how much of it she thought about along the way and how much she thought of from the start but just has a genius sense of pacing and revealing.<br /><br /><br />[Read in 2005, Jan 2014]]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663159247</id>
+          <rating>4</rating>
+          <text><![CDATA[This series is going to be the end of me, in the best way possible. Rowling continues to blow my mind. Speaking honestly, the middle of this book seemed to drag a bit for me (although that might just be me being impatient for the rest of the books) but it concluded so strongly that the end certainly justified the time it took to read the rest. I'm finally beginning to understand the great emotional attachment people have to Harry Potter, and I am so glad to be joining in it!]]></text>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Harry Potter and the Deathly Hallows]]></title>
+          <id>136251</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows]]></url>
+        </book>
+        <your_review>
+          <id>28612105</id>
+          <rating>5</rating>
+
+        </your_review>
+        <their_review>
+          <id>663159232</id>
+          <rating>to-read</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Harry Potter and the Prisoner of Azkaban]]></title>
+          <id>5</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/5.Harry_Potter_and_the_Prisoner_of_Azkaban]]></url>
+        </book>
+        <your_review>
+          <id>192739223</id>
+          <rating>5</rating>
+          <text><![CDATA[Great.<br /><br />[Read in 2005 and 2013]]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663159216</id>
+          <rating>5</rating>
+          <text><![CDATA[These books just keep getting better! This was my favorite in the movie series, and the book was even more amazing than the film. Rowling is a genius, and I'm absolutely in love with the HP world.]]></text>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>1984</title>
+          <id>5470</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/5470.1984]]></url>
+        </book>
+        <your_review>
+          <id>459427552</id>
+          <rating>5</rating>
+          <text><![CDATA[How did I not like this when I was a teenager? Fully deserving of all its praise. ]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663122011</id>
+          <rating>3</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title>The Hobbit</title>
+          <id>5907</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/5907.The_Hobbit]]></url>
+        </book>
+        <your_review>
+          <id>28612132</id>
+          <rating>4</rating>
+
+        </your_review>
+        <their_review>
+          <id>663122665</id>
+          <rating>4</rating>
+
+        </their_review>
+      </review>
+      <review>
+        <book>
+          <title><![CDATA[Harry Potter and the Sorcerer's Stone]]></title>
+          <id>3</id>
+          <url><![CDATA[https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone]]></url>
+        </book>
+        <your_review>
+          <id>192739151</id>
+          <rating>4</rating>
+          <text><![CDATA[<br />[First read around '05. Reread couple years later. Read last in '13]]]></text>
+
+        </your_review>
+        <their_review>
+          <id>663128579</id>
+          <rating>5</rating>
+          <text><![CDATA[Even better than I expected! Rowling draws you in instantly, and you never want to leave her magical world. ]]></text>
+
+        </their_review>
+      </review>
+    </reviews>
+  </compare>
+
+</GoodreadsResponse>

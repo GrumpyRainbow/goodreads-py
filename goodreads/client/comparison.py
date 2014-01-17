@@ -1,4 +1,4 @@
-
+from collections import OrderedDict
 
 class Comparison:
     """
@@ -11,8 +11,8 @@ class Comparison:
         common_count
         reviews (list of dictionaries)
             book
-                title
-                id
+            title
+            id
             your_rating
             their_rating
     """
@@ -20,8 +20,16 @@ class Comparison:
         """ Parse dictionary for useful data """
         for key, val in compare_dict.items():
             if key == 'reviews':
+                # Check for no reviews
+                if not val:
+                    continue
+                # If one review, make sure list of dicts
+                review_list = val['review']
+                if type(review_list) is OrderedDict:
+                    review_list = (review_list,)
+                # Get and organize data
                 reviews = []
-                for review_dict in val['review']:
+                for review_dict in review_list:
                     review = {}
                     review['title'] = review_dict["book"]['title']
                     review['id'] = review_dict["book"]['id']
