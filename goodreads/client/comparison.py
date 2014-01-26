@@ -21,8 +21,11 @@ class Comparison:
         for key, val in compare_dict.items():
             if key == 'reviews':
                 # Check for no reviews
+                # Make empty to prevent AttributeErrors
                 if not val:
+                    self.__dict__[key] = []
                     continue
+
                 # If one review, make sure list of dicts
                 review_list = val['review']
                 if type(review_list) is OrderedDict:
