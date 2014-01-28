@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[K6rpj6GfifuFUXMlwcQ]]></key>
+    <method><![CDATA[api_auth_user]]></method>
+  </Request>
+  <user id="1374963">
+  <name>Zachariah Kendall</name>
+  <link><![CDATA[http://www.goodreads.com/user/show/1374963-zachariah?utm_medium=api]]></link>
+</user>
+
+</GoodreadsResponse>

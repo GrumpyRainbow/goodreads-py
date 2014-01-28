@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+    <key><![CDATA[K6rpj6GfifuFUXMlwcQ]]></key>
+    <method><![CDATA[friend_user]]></method>
+  </Request>
+  <friends start="1" end="30" total="102">
+    <user>
+      <id>12315703</id>
+      <name>Kelli</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/12315703-kelli]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1387232336p3/12315703.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1387232336p2/12315703.jpg]]></small_image_url>
+      <friends_count>132</friends_count>
+      <reviews_count>827</reviews_count>
+      <user_status>
+        <body></body>
+        <chapter type="integer" nil="true"/>
+        <comments_count type="integer">0</comments_count>
+        <created_at type="datetime">2014-01-08T08:45:24+00:00</created_at>
+        <id type="integer">37386053</id>
+        <last_comment_at type="datetime" nil="true"/>
+        <note_updated_at type="datetime" nil="true"/>
+        <note_uri nil="true"/>
+        <page type="integer">85</page>
+        <percent type="integer">37</percent>
+        <ratings_count type="integer">0</ratings_count>
+        <updated_at type="datetime">2014-01-08T08:45:24+00:00</updated_at>
+        <work_id type="integer">260248</work_id>
+        <book>
+          <id type="integer">321594</id>
+          <isbn>0140042229</isbn>
+          <isbn13>9780140042221</isbn13>
+          <text_reviews_count type="integer">36</text_reviews_count>
+          <title>Dubliners</title>
+          <image_url>http://www.goodreads.com/assets/nocover/111x148.png</image_url>
+          <small_image_url>http://www.goodreads.com/assets/nocover/60x80.png</small_image_url>
+          <link>http://www.goodreads.com/book/show/321594.Dubliners</link>
+          <num_pages>224</num_pages>
+          <format>Paperback</format>
+          <edition_information/>
+          <publisher>Penguin Books</publisher>
+          <publication_day>30</publication_day>
+          <publication_year>1976</publication_year>
+          <publication_month>9</publication_month>
+          <average_rating>3.86</average_rating>
+          <ratings_count>50739</ratings_count>
+          <description>&lt;strong&gt;Dubliners&lt;/strong&gt; was completed in 1905, but a series of British &amp;amp; Irish publishers &amp;amp; printers found it offensively immoral. It was suppressed.Â Â The book finally came out in London in 1914, just as Joyce's &lt;strong&gt;Portrait of the Artist as a Young Man&lt;/strong&gt; began to appear in the journal &lt;strong&gt;Egoist&lt;/strong&gt; under the auspices of Ezra Pound.Â Â The first three stories in &lt;strong&gt;Dubliners&lt;/strong&gt; might be incidents from a draft of &lt;strong&gt;Portrait of the Artist&lt;/strong&gt;, &amp;amp; many of the characters who figure in &lt;strong&gt;Ulysses&lt;/strong&gt; have their first appearance here, but this is not a book of interest only because of its relationship to Joyce's life &amp;amp; mature work.Â Â It is one of the greatest story collections in the English language--an unflinching, brilliant, often tragic portrait of early twentieth-century Dublin.Â Â The book, which begins &amp;amp; ends with a death, moves from "stories of my childhood" thru tales of public life.Â Â Its larger purpose, Joyce said, was as a moral history of Ireland.</description>
+          <authors>
+            <author>
+              <id>5144</id>
+              <name>James Joyce</name>
+              <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/authors/1358276521p5/5144.jpg]]></image_url>
+              <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/authors/1358276521p2/5144.jpg]]></small_image_url>
+              <link><![CDATA[http://www.goodreads.com/author/show/5144.James_Joyce]]></link>
+              <average_rating>3.72</average_rating>
+              <ratings_count>187320</ratings_count>
+              <text_reviews_count>9244</text_reviews_count>
+            </author>
+          </authors>
+          <published>1976</published>
+        </book>
+      </user_status>
+
+      <created_at>Wed Oct 17 22:28:28 -0700 2012</created_at>
+    </user>
+    <user>
+      <id>5326786</id>
+      <name>Maggie</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/5326786-maggie]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1348718552p3/5326786.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1348718552p2/5326786.jpg]]></small_image_url>
+      <friends_count>51</friends_count>
+      <reviews_count>582</reviews_count>
+      <user_status>
+        <body></body>
+        <chapter type="integer" nil="true"/>
+        <comments_count type="integer">0</comments_count>
+        <created_at type="datetime">2014-01-10T00:00:02+00:00</created_at>
+        <id type="integer">37475305</id>
+        <last_comment_at type="datetime" nil="true"/>
+        <note_updated_at type="datetime" nil="true"/>
+        <note_uri nil="true"/>
+        <page type="integer">393</page>
+        <percent type="integer">70</percent>
+        <ratings_count type="integer">0</ratings_count>
+        <updated_at type="datetime">2014-01-10T00:00:02+00:00</updated_at>
+        <work_id type="integer">13400250</work_id>
+        <book>
+          <id type="integer">8533018</id>
+          <isbn>1409135195</isbn>
+          <isbn13>9781409135197</isbn13>
+          <text_reviews_count type="integer">757</text_reviews_count>
+          <title>The Scottish Prisoner (Lord John Grey, #3)</title>
+          <image_url>http://d202m5krfqbpi5.cloudfront.net/books/1372562277m/8533018.jpg</image_url>
+          <small_image_url>http://d202m5krfqbpi5.cloudfront.net/books/1372562277s/8533018.jpg</small_image_url>
+          <link>http://www.goodreads.com/book/show/8533018-the-scottish-prisoner</link>
+          <num_pages>560</num_pages>
+          <format>Paperback</format>
+          <edition_information/>
+          <publisher>Orion Publishing Group</publisher>
+          <publication_day>25</publication_day>
+          <publication_year>2012</publication_year>
+          <publication_month>10</publication_month>
+          <average_rating>4.07</average_rating>
+          <ratings_count>8830</ratings_count>
+          <description>In this highly-anticipated new novel, Diana Gabaldon brings back one of her most compelling characters: the unforgettable Lord John Grey - soldier, gentleman, and no mean hand with a blade. Set in the heart of the eighteenth century, Lord John's world is one of mystery and menace. Diana Gabaldon brilliantly weaves together the strands of Lord John's secret and public lives. Capturing the lonely, tormented, and courageous career of a man who fights for his crown, his honor, and his own secrets, Diana Gabaldon delivers breathtaking human drama, proving once again that she can bring history to life in a way few novelists ever have.</description>
+          <authors>
+            <author>
+              <id>3617</id>
+              <name>Diana Gabaldon</name>
+              <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/authors/1213918339p5/3617.jpg]]></image_url>
+              <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/authors/1213918339p2/3617.jpg]]></small_image_url>
+              <link><![CDATA[http://www.goodreads.com/author/show/3617.Diana_Gabaldon]]></link>
+              <average_rating>4.19</average_rating>
+              <ratings_count>668342</ratings_count>
+              <text_reviews_count>39261</text_reviews_count>
+            </author>
+          </authors>
+          <published>2012</published>
+        </book>
+      </user_status>
+
+      <created_at>Wed Jun 08 22:38:53 -0700 2011</created_at>
+    </user>
+    <user>
+      <id>3382867</id>
+      <name>Liz</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/3382867-liz]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1296425013p3/3382867.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1296425013p2/3382867.jpg]]></small_image_url>
+      <friends_count>52</friends_count>
+      <reviews_count>837</reviews_count>
+      <created_at>Thu Apr 01 13:51:50 -0700 2010</created_at>
+    </user>
+    <user>
+      <id>4671030</id>
+      <name>Nathan</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/4671030-nathan]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1353999918p3/4671030.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1353999918p2/4671030.jpg]]></small_image_url>
+      <friends_count>25</friends_count>
+      <reviews_count>885</reviews_count>
+      <user_status>
+        <body></body>
+        <chapter type="integer" nil="true"/>
+        <comments_count type="integer">0</comments_count>
+        <created_at type="datetime">2013-12-27T02:38:55+00:00</created_at>
+        <id type="integer">36780988</id>
+        <last_comment_at type="datetime" nil="true"/>
+        <note_updated_at type="datetime" nil="true"/>
+        <note_uri nil="true"/>
+        <page type="integer" nil="true"/>
+        <percent type="integer">25</percent>
+        <ratings_count type="integer">0</ratings_count>
+        <updated_at type="datetime">2013-12-27T02:38:55+00:00</updated_at>
+        <work_id type="integer">86051</work_id>
+        <book>
+          <id type="integer">89158</id>
+          <isbn>0691128715</isbn>
+          <isbn13>9780691128719</isbn13>
+          <text_reviews_count type="integer">13</text_reviews_count>
+          <title>Expert Political Judgment: How Good Is It? How Can We Know?</title>
+          <image_url>http://www.goodreads.com/assets/nocover/111x148.png</image_url>
+          <small_image_url>http://www.goodreads.com/assets/nocover/60x80.png</small_image_url>
+          <link>http://www.goodreads.com/book/show/89158.Expert_Political_Judgment</link>
+          <num_pages></num_pages>
+          <format></format>
+          <edition_information/>
+          <publisher></publisher>
+          <publication_day></publication_day>
+          <publication_year></publication_year>
+          <publication_month></publication_month>
+          <average_rating>4.23</average_rating>
+          <ratings_count>65</ratings_count>
+          <description></description>
+          <authors>
+            <author>
+              <id>51185</id>
+              <name>Philip E. Tetlock</name>
+              <image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/u_200x266-312f5971f6b4a667fe0e83c852b56858.png]]></image_url>
+              <small_image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/u_50x66-d9f6a4a5badfda0f69e70cc94d962125.png]]></small_image_url>
+              <link><![CDATA[http://www.goodreads.com/author/show/51185.Philip_E_Tetlock]]></link>
+              <average_rating>4.10</average_rating>
+              <ratings_count>79</ratings_count>
+              <text_reviews_count>14</text_reviews_count>
+            </author>
+          </authors>
+          <published></published>
+        </book>
+      </user_status>
+
+      <created_at>Mon Nov 26 22:57:02 -0800 2012</created_at>
+    </user>
+    <user>
+      <id>17699592</id>
+      <name>Sarah</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/17699592-sarah]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1361504906p3/17699592.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1361504906p2/17699592.jpg]]></small_image_url>
+      <friends_count>31</friends_count>
+      <reviews_count>208</reviews_count>
+      <created_at>Sun Apr 28 10:22:59 -0700 2013</created_at>
+    </user>
+    <user>
+      <id>25498272</id>
+      <name>Steven Casteel</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/25498272-steven-casteel]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1386085095p3/25498272.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1386085095p2/25498272.jpg]]></small_image_url>
+      <friends_count>23</friends_count>
+      <reviews_count>152</reviews_count>
+      <created_at>Sat Nov 09 07:33:08 -0800 2013</created_at>
+    </user>
+    <user>
+      <id>1414357</id>
+      <name>Rebekah</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/1414357-rebekah]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1342627513p3/1414357.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1342627513p2/1414357.jpg]]></small_image_url>
+      <friends_count>46</friends_count>
+      <reviews_count>132</reviews_count>
+      <created_at>Sun Mar 01 13:54:54 -0800 2009</created_at>
+    </user>
+    <user>
+      <id>22056220</id>
+      <name>Britannie Davis</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/22056220-britannie-davis]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1381781914p3/22056220.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1381781914p2/22056220.jpg]]></small_image_url>
+      <friends_count>52</friends_count>
+      <reviews_count>100</reviews_count>
+      <created_at>Tue Jul 09 12:02:23 -0700 2013</created_at>
+    </user>
+    <user>
+      <id>25680384</id>
+      <name>Megan Chandler</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/25680384-megan-chandler]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1384589666p3/25680384.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1384589666p2/25680384.jpg]]></small_image_url>
+      <friends_count>30</friends_count>
+      <reviews_count>20</reviews_count>
+      <created_at>Sun Jan 05 10:03:26 -0800 2014</created_at>
+    </user>
+    <user>
+      <id>20958660</id>
+      <name>Neville Magone</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/20958660-neville-magone]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1370230158p3/20958660.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1370230158p2/20958660.jpg]]></small_image_url>
+      <friends_count>23</friends_count>
+      <reviews_count>66</reviews_count>
+      <created_at>Sun Jun 02 20:29:24 -0700 2013</created_at>
+    </user>
+    <user>
+      <id>2385396</id>
+      <name>Bradley Eylander</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/2385396-bradley-eylander]]></link>
+      <image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/m_111x148-ed68a3a40c70b78add8e1bdde8780d31.png]]></image_url>
+      <small_image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/m_50x66-e89fc14c32a41c0eb4298dfafe929b65.png]]></small_image_url>
+      <friends_count>12</friends_count>
+      <reviews_count>76</reviews_count>
+      <created_at>Fri Jun 05 09:14:50 -0700 2009</created_at>
+    </user>
+    <user>
+      <id>97804</id>
+      <name>Lily</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/97804-lily]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1378432376p3/97804.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1378432376p2/97804.jpg]]></small_image_url>
+      <friends_count>47</friends_count>
+      <reviews_count>305</reviews_count>
+      <created_at>Sat Apr 04 21:19:30 -0700 2009</created_at>
+    </user>
+    <user>
+      <id>18210546</id>
+      <name>Brendan Hawthorne</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/18210546-brendan-hawthorne]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1362853310p3/18210546.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1362853310p2/18210546.jpg]]></small_image_url>
+      <friends_count>13</friends_count>
+      <reviews_count>45</reviews_count>
+      <created_at>Sat Mar 09 10:22:49 -0800 2013</created_at>
+    </user>
+    <user>
+      <id>3537346</id>
+      <name>Tom</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/3537346-tom]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1333208271p3/3537346.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1333208271p2/3537346.jpg]]></small_image_url>
+      <friends_count>30</friends_count>
+      <reviews_count>113</reviews_count>
+      <user_status>
+        <body>Really insightful. Really good stuff.</body>
+        <chapter type="integer" nil="true"/>
+        <comments_count type="integer">0</comments_count>
+        <created_at type="datetime">2013-04-25T21:31:45+00:00</created_at>
+        <id type="integer">26780945</id>
+        <last_comment_at type="datetime" nil="true"/>
+        <note_updated_at type="datetime" nil="true"/>
+        <note_uri>kca://note/amzn1.grok.note.4ce6d86335917b9e789e08e7fe334889</note_uri>
+        <page type="integer">166</page>
+        <percent type="integer">68</percent>
+        <ratings_count type="integer">0</ratings_count>
+        <updated_at type="datetime">2013-08-27T06:26:20+00:00</updated_at>
+        <work_id type="integer">7421862</work_id>
+        <book>
+          <id type="integer">7155145</id>
+          <isbn>1591843162</isbn>
+          <isbn13>9781591843160</isbn13>
+          <text_reviews_count type="integer">829</text_reviews_count>
+          <title>Linchpin: Are You Indispensable?</title>
+          <image_url>http://www.goodreads.com/assets/nocover/111x148.png</image_url>
+          <small_image_url>http://www.goodreads.com/assets/nocover/60x80.png</small_image_url>
+          <link>http://www.goodreads.com/book/show/7155145-linchpin</link>
+          <num_pages>244</num_pages>
+          <format>Hardcover</format>
+          <edition_information/>
+          <publisher>Portfolio Hardcover</publisher>
+          <publication_day>26</publication_day>
+          <publication_year>2010</publication_year>
+          <publication_month>1</publication_month>
+          <average_rating>3.91</average_rating>
+          <ratings_count>12056</ratings_count>
+          <description>&lt;strong&gt;"The only way to get what you're worth is to stand out, to exert emotional labor, to be seen as indispensable, and to produce interactions that organizations and people care deeply about."&lt;/strong&gt;&lt;br&gt;&lt;br&gt; In bestsellers such as &lt;em&gt;Purple Cow&lt;/em&gt; and &lt;em&gt;Tribes&lt;/em&gt;, Seth Godin taught readers how to make remarkable products and spread powerful ideas. But this book is different. It's about you - your choices, your future, and your potential to make a huge difference in whatever field you choose.&lt;br&gt;&lt;br&gt; There used to be two teams in every workplace: management and labor. Now there's a third team, the linchpins. These people invent, lead (regardless of title), connect others, make things happen, and create order out of chaos. They figure out what to do when there's no rule book. They delight and challenge their customers and peers. They love their work, pour their best selves into it, and turn each day into a kind of art.&lt;br&gt;&lt;br&gt; Linchpins are the essential building blocks of great organizations. Like the small piece of hardware that keeps a wheel from falling off its axle, they may not be famous but they're indispensable. And in today's world, they get the best jobs and the most freedom.&lt;br&gt;&lt;br&gt; Have you ever found a shortcut that others missed? Seen a new way to resolve a conflict? Made a connection with someone others couldn't reach? Even once? Then you have what it takes to become indispensable, by overcoming the resistance that holds people back. &lt;em&gt;Linchpin&lt;/em&gt; will show you how to join the likes of...&lt;br&gt;&lt;br&gt; *Keith Johnson, who scours flea markets across the country to fill Anthropologie stores with unique pieces.&lt;br&gt; *Marissa Mayer, who keeps Google focused on the things that really matter.&lt;br&gt; *Jason Zimdars, a graphic designer who got his dream job at 37signals without a rÃ©sumÃ©.&lt;br&gt; *David, who works at Dean and Deluca coffeeshop in New York. He sees every customer interaction as a chance to give a gift and is cherished in return.&lt;br&gt;&lt;br&gt; As Godin writes, "Every day I meet people who have so much to give but have been bullied enough or frightened enough to hold it back. It's time to stop complying with the system and draw your own map. You have brilliance in you, your contribution is essential, and the art you create is precious. Only you can do it, and you must."&lt;br&gt;&lt;br&gt;</description>
+          <authors>
+            <author>
+              <id>1791</id>
+              <name>Seth Godin</name>
+              <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/authors/1355799076p5/1791.jpg]]></image_url>
+              <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/authors/1355799076p2/1791.jpg]]></small_image_url>
+              <link><![CDATA[http://www.goodreads.com/author/show/1791.Seth_Godin]]></link>
+              <average_rating>3.83</average_rating>
+              <ratings_count>62220</ratings_count>
+              <text_reviews_count>4490</text_reviews_count>
+            </author>
+          </authors>
+          <published>2010</published>
+        </book>
+      </user_status>
+
+      <created_at>Sun Oct 17 21:29:58 -0700 2010</created_at>
+    </user>
+    <user>
+      <id>3105894</id>
+      <name>Hannah</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/3105894-hannah]]></link>
+      <image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/f_111x148-50ade1db09790810151d48c044458007.png]]></image_url>
+      <small_image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/f_50x66-e0ba3b90c110cd67123d6a850d85373e.png]]></small_image_url>
+      <friends_count>53</friends_count>
+      <reviews_count>401</reviews_count>
+      <created_at>Mon Dec 17 01:18:14 -0800 2012</created_at>
+    </user>
+    <user>
+      <id>1875872</id>
+      <name>Rachael</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/1875872-rachael]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1247293941p3/1875872.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1247293941p2/1875872.jpg]]></small_image_url>
+      <friends_count>52</friends_count>
+      <reviews_count>262</reviews_count>
+      <created_at>Sun Feb 22 01:19:10 -0800 2009</created_at>
+    </user>
+    <user>
+      <id>27368003</id>
+      <name>Aryk Anderson</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/27368003-aryk-anderson]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1388950400p3/27368003.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1388950400p2/27368003.jpg]]></small_image_url>
+      <friends_count>28</friends_count>
+      <reviews_count>42</reviews_count>
+      <created_at>Sun Jan 05 11:33:29 -0800 2014</created_at>
+    </user>
+    <user>
+      <id>9228273</id>
+      <name>Nathan</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/9228273-nathan]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1335997262p3/9228273.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1335997262p2/9228273.jpg]]></small_image_url>
+      <friends_count>12</friends_count>
+      <reviews_count>56</reviews_count>
+      <created_at>Wed May 02 15:21:11 -0700 2012</created_at>
+    </user>
+    <user>
+      <id>4777695</id>
+      <name>Kevin</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/4777695-kevin]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1294565887p3/4777695.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1294565887p2/4777695.jpg]]></small_image_url>
+      <friends_count>88</friends_count>
+      <reviews_count>159</reviews_count>
+      <created_at>Wed Sep 14 06:30:23 -0700 2011</created_at>
+    </user>
+    <user>
+      <id>21015632</id>
+      <name>Jenn Lk</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/21015632-jenn-lk]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1370376434p3/21015632.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1370376434p2/21015632.jpg]]></small_image_url>
+      <friends_count>16</friends_count>
+      <reviews_count>131</reviews_count>
+      <user_status>
+        <body></body>
+        <chapter type="integer" nil="true"/>
+        <comments_count type="integer">0</comments_count>
+        <created_at type="datetime">2014-01-06T03:54:29+00:00</created_at>
+        <id type="integer">37262804</id>
+        <last_comment_at type="datetime" nil="true"/>
+        <note_updated_at type="datetime" nil="true"/>
+        <note_uri nil="true"/>
+        <page type="integer">390</page>
+        <percent type="integer">49</percent>
+        <ratings_count type="integer">0</ratings_count>
+        <updated_at type="datetime">2014-01-06T03:54:29+00:00</updated_at>
+        <work_id type="integer">3272005</work_id>
+        <book>
+          <id type="integer">10572</id>
+          <isbn>0553381695</isbn>
+          <isbn13>9780553381696</isbn13>
+          <text_reviews_count type="integer">9795</text_reviews_count>
+          <title>A Clash of Kings (A Song of Ice and Fire, #2)</title>
+          <image_url>http://d202m5krfqbpi5.cloudfront.net/books/1358254974m/10572.jpg</image_url>
+          <small_image_url>http://d202m5krfqbpi5.cloudfront.net/books/1358254974s/10572.jpg</small_image_url>
+          <link>http://www.goodreads.com/book/show/10572.A_Clash_of_Kings</link>
+          <num_pages>784</num_pages>
+          <format></format>
+          <edition_information>Bantam Books Trade Paperback</edition_information>
+          <publisher></publisher>
+          <publication_day>28</publication_day>
+          <publication_year>2002</publication_year>
+          <publication_month>5</publication_month>
+          <average_rating>4.37</average_rating>
+          <ratings_count>288709</ratings_count>
+          <description>Time is out of joint. The summer of peace and plenty, ten years long, is drawing to a close, and the harsh, chill winter approaches like an angry beast. Two great leadersâ€”Lord Eddard Stark and Robert Baratheonâ€”who held sway over an age of enforced peace are dead...victims of royal treachery. Now, from the ancient citadel of Dragonstone to the forbidding shores of Winterfell, chaos reigns, as pretenders to the Iron Throne of the Seven Kingdoms prepare to stake their claims through tempest, turmoil, and war. &lt;br&gt;&lt;br&gt;As a prophecy of doom cuts across the skyâ€”a comet the color of blood and flameâ€”six factions struggle for control of a divided land. Eddardâ€™s son Robb has declared himself King in the North. In the south, Joffrey, the heir apparent, rules in name only, victim of the scheming courtiers who teem over Kingâ€™s Landing. Robertâ€™s two brothers each seek their own dominion, while a disfavored house turns once more to conquest. And a continent away, an exiled queen, the Mother of Dragons, risks everything to lead her precious brood across a hard hot desert to win back the crown that is rightfully hers. &lt;br&gt;&lt;br&gt;&lt;em&gt;A Clash of Kings&lt;/em&gt; transports us into a magnificent, forgotten land of revelry and revenge, wizardry and wartime. It is a tale in which maidens cavort with madmen, brother plots against brother, and the dead rise to walk in the night. Here a princess masquerades as an orphan boy; a knight of the mind prepares a poison for a treacherous sorceress; and wild men descend from the Mountains of the Moon to ravage the countryside. &lt;br&gt;&lt;br&gt;Against a backdrop of incest and fratricide, alchemy and murder, the price of glory may be measured in blood. And the spoils of victory may just go to the  men and women possessed of the coldest steel...and the coldest hearts. For when rulers clash, all of the land feels the tremors. &lt;br&gt;&lt;br&gt;Audacious, inventive, brilliantly imagined, &lt;em&gt;A Clash of Kings&lt;/em&gt; is a novel of dazzling beauty and boundless enchantmentâ€”a tale of pure excitement you will never forget.</description>
+          <authors>
+            <author>
+              <id>346732</id>
+              <name>George R.R. Martin</name>
+              <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/authors/1351944410p5/346732.jpg]]></image_url>
+              <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/authors/1351944410p2/346732.jpg]]></small_image_url>
+              <link><![CDATA[http://www.goodreads.com/author/show/346732.George_R_R_Martin]]></link>
+              <average_rating>4.34</average_rating>
+              <ratings_count>1754683</ratings_count>
+              <text_reviews_count>90935</text_reviews_count>
+            </author>
+          </authors>
+          <published>2002</published>
+        </book>
+      </user_status>
+
+      <created_at>Tue Jun 04 13:07:18 -0700 2013</created_at>
+    </user>
+    <user>
+      <id>8222782</id>
+      <name>Ade</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/8222782-ade]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1331908091p3/8222782.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1331908091p2/8222782.jpg]]></small_image_url>
+      <friends_count>20</friends_count>
+      <reviews_count>75</reviews_count>
+      <created_at>Tue May 01 20:32:26 -0700 2012</created_at>
+    </user>
+    <user>
+      <id>13808998</id>
+      <name>Lulu</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/13808998-lulu]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1350774017p3/13808998.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1350774017p2/13808998.jpg]]></small_image_url>
+      <friends_count>27</friends_count>
+      <reviews_count>66</reviews_count>
+      <created_at>Sat Oct 20 16:00:20 -0700 2012</created_at>
+    </user>
+    <user>
+      <id>27291507</id>
+      <name>Sam Panabaker</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/27291507-sam-panabaker]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1388770676p3/27291507.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1388770676p2/27291507.jpg]]></small_image_url>
+      <friends_count>12</friends_count>
+      <reviews_count>56</reviews_count>
+      <created_at>Fri Jan 03 09:38:00 -0800 2014</created_at>
+    </user>
+    <user>
+      <id>26574888</id>
+      <name>Andrew Matteson</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/26574888-andrew-matteson]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1386954386p3/26574888.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1386954386p2/26574888.jpg]]></small_image_url>
+      <friends_count>29</friends_count>
+      <reviews_count>0</reviews_count>
+      <created_at>Fri Dec 13 09:06:33 -0800 2013</created_at>
+    </user>
+    <user>
+      <id>2610830</id>
+      <name>Alexander</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/2610830-alexander]]></link>
+      <image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/m_111x148-ed68a3a40c70b78add8e1bdde8780d31.png]]></image_url>
+      <small_image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/m_50x66-e89fc14c32a41c0eb4298dfafe929b65.png]]></small_image_url>
+      <friends_count>10</friends_count>
+      <reviews_count>171</reviews_count>
+      <created_at>Thu Feb 25 12:32:17 -0800 2010</created_at>
+    </user>
+    <user>
+      <id>1625612</id>
+      <name>Kristin</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/1625612-kristin]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1283547447p3/1625612.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1283547447p2/1625612.jpg]]></small_image_url>
+      <friends_count>235</friends_count>
+      <reviews_count>719</reviews_count>
+      <created_at>Mon Feb 06 20:51:34 -0800 2012</created_at>
+    </user>
+    <user>
+      <id>7593984</id>
+      <name>Chelsea</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/7593984-chelsea]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1385614078p3/7593984.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1385614078p2/7593984.jpg]]></small_image_url>
+      <friends_count>41</friends_count>
+      <reviews_count>180</reviews_count>
+      <created_at>Wed Feb 01 17:27:43 -0800 2012</created_at>
+    </user>
+    <user>
+      <id>160342</id>
+      <name>Calvin</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/160342-calvin]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1374557342p3/160342.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1374557342p2/160342.jpg]]></small_image_url>
+      <friends_count>33</friends_count>
+      <reviews_count>63</reviews_count>
+      <created_at>Mon Feb 06 21:03:57 -0800 2012</created_at>
+    </user>
+    <user>
+      <id>11223365</id>
+      <name>Jaclyn</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/11223365-jaclyn]]></link>
+      <image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/f_111x148-50ade1db09790810151d48c044458007.png]]></image_url>
+      <small_image_url><![CDATA[http://www.goodreads.com/assets/nophoto/user/f_50x66-e0ba3b90c110cd67123d6a850d85373e.png]]></small_image_url>
+      <friends_count>59</friends_count>
+      <reviews_count>37</reviews_count>
+      <created_at>Sun Jan 05 10:03:26 -0800 2014</created_at>
+    </user>
+    <user>
+      <id>8579905</id>
+      <name>Sarah</name>
+      <link><![CDATA[http://www.goodreads.com/user/show/8579905-sarah]]></link>
+      <image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1333509151p3/8579905.jpg]]></image_url>
+      <small_image_url><![CDATA[http://d202m5krfqbpi5.cloudfront.net/users/1333509151p2/8579905.jpg]]></small_image_url>
+      <friends_count>33</friends_count>
+      <reviews_count>1</reviews_count>
+      <created_at>Sun Jul 22 04:12:32 -0700 2012</created_at>
+    </user>
+  </friends>
+</GoodreadsResponse>

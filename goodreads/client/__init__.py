@@ -1,1 +1,1 @@
-from client import Client, GoodreadsRequestError
+from client import Client, GoodreadsRequestError, GoodreadsSession
