@@ -1,4 +1,3 @@
-from collections import OrderedDict
 
 class Comparison:
     """
@@ -26,11 +25,12 @@ class Comparison:
                     self.__dict__[key] = []
                     continue
 
-                # If one review, make sure list of dicts
                 review_list = val['review']
-                if type(review_list) is OrderedDict:
+                # If only one review, convert to list,
+                # otherwise the forloop fails.
+                if isinstance(review_list, dict):
                     review_list = (review_list,)
-                # Get and organize data
+                # Get and organize the data we want
                 reviews = []
                 for review_dict in review_list:
                     review = {}
